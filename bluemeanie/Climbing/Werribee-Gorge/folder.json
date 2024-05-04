@@ -1,0 +1,16 @@
+{
+  "node_id": "3kjH5",
+  "name": "Werribee Gorge",
+  "description": "",
+  "privacy": "Public",
+  "keywords": [],
+  "url_name": "Werribee-Gorge",
+  "url_path": "/Climbing/Werribee-Gorge",
+  "date_added": "2014-02-23T04:40:35+00:00",
+  "highlight_image_uri": "/api/v2/highlight/node/3kjH5",
+  "child_nodes": [
+    "Werribee-Gorge-2nd-of-February",
+    "Werribee-Gorge-12th-of-August",
+    "Werribee-Gorge-25th-of-January"
+  ]
+}

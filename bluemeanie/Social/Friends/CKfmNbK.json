@@ -1,0 +1,27 @@
+{
+  "image_key": "CKfmNbK",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "nair"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "20.jpg",
+  "date_time_uploaded": "2006-06-28T02:45:50+00:00",
+  "original_height": 480,
+  "original_width": 379,
+  "original_size": 28440,
+  "images": [
+    "CKfmNbK-Ti.jpg",
+    "CKfmNbK-Th.jpg",
+    "CKfmNbK-S.jpg",
+    "CKfmNbK-M.jpg",
+    "CKfmNbK-Original.jpg"
+  ],
+  "date_time_original": [
+    "2005-01-01T09:45:19+00:00"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "image_key": "pZnh3JW",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "nair"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "19.jpg",
+  "date_time_uploaded": "2006-06-28T02:44:09+00:00",
+  "original_height": 480,
+  "original_width": 640,
+  "original_size": 36632,
+  "images": [
+    "pZnh3JW-Ti.jpg",
+    "pZnh3JW-Th.jpg",
+    "pZnh3JW-S.jpg",
+    "pZnh3JW-M.jpg",
+    "pZnh3JW-Original.jpg"
+  ],
+  "date_time_original": [
+    "2005-01-01T08:46:53+00:00"
+  ]
+}

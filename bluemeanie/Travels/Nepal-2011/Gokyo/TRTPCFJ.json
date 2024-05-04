@@ -1,0 +1,31 @@
+{
+  "image_key": "TRTPCFJ",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Nepal_20110329_093937_296.jpg",
+  "date_time_uploaded": "2011-06-18T03:26:16+00:00",
+  "original_height": 2336,
+  "original_width": 3504,
+  "original_size": 4172046,
+  "images": [
+    "TRTPCFJ-Ti.jpg",
+    "TRTPCFJ-Th.jpg",
+    "TRTPCFJ-S.jpg",
+    "TRTPCFJ-M.jpg",
+    "TRTPCFJ-L.jpg",
+    "TRTPCFJ-XL.jpg",
+    "TRTPCFJ-X2.jpg",
+    "TRTPCFJ-X3.jpg",
+    "TRTPCFJ-Original.jpg"
+  ],
+  "date_time_original": [
+    "2011-03-29T16:39:37+00:00"
+  ]
+}

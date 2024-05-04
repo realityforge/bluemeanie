@@ -1,0 +1,23 @@
+{
+  "node_id": "Rz9qX",
+  "name": "Nepal 2011",
+  "description": "",
+  "privacy": "Public",
+  "keywords": [],
+  "url_name": "Nepal-2011",
+  "url_path": "/Travels/Nepal-2011",
+  "date_added": "2014-02-23T04:40:39+00:00",
+  "highlight_image_uri": "/api/v2/highlight/node/Rz9qX",
+  "child_nodes": [
+    "Lhukla-to-Namch-Bazaar",
+    "Gokyo",
+    "Bhaktapur",
+    "Kathmandu",
+    "Holi",
+    "Namche-Bazaar",
+    "Boudhanath",
+    "Swayambhunath-or-Monkey-Temple",
+    "Porters",
+    "Rest-day-walk-to-Thame"
+  ]
+}

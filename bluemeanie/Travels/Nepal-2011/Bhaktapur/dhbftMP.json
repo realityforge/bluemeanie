@@ -1,0 +1,31 @@
+{
+  "image_key": "dhbftMP",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Nepal_20110406_154609_606.jpg",
+  "date_time_uploaded": "2011-06-19T14:31:45+00:00",
+  "original_height": 2736,
+  "original_width": 3648,
+  "original_size": 7379282,
+  "images": [
+    "dhbftMP-Ti.jpg",
+    "dhbftMP-Th.jpg",
+    "dhbftMP-S.jpg",
+    "dhbftMP-M.jpg",
+    "dhbftMP-L.jpg",
+    "dhbftMP-XL.jpg",
+    "dhbftMP-X2.jpg",
+    "dhbftMP-X3.jpg",
+    "dhbftMP-Original.jpg"
+  ],
+  "date_time_original": [
+    "2011-04-06T22:46:09+00:00"
+  ]
+}

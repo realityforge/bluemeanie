@@ -1,0 +1,31 @@
+{
+  "image_key": "NRBNGNJ",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Nepal_20110406_114109_579.jpg",
+  "date_time_uploaded": "2011-06-19T13:44:53+00:00",
+  "original_height": 2336,
+  "original_width": 3504,
+  "original_size": 6160020,
+  "images": [
+    "NRBNGNJ-Ti.jpg",
+    "NRBNGNJ-Th.jpg",
+    "NRBNGNJ-S.jpg",
+    "NRBNGNJ-M.jpg",
+    "NRBNGNJ-L.jpg",
+    "NRBNGNJ-XL.jpg",
+    "NRBNGNJ-X2.jpg",
+    "NRBNGNJ-X3.jpg",
+    "NRBNGNJ-Original.jpg"
+  ],
+  "date_time_original": [
+    "2011-04-06T18:41:09+00:00"
+  ]
+}

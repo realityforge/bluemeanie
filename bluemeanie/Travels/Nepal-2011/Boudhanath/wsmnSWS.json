@@ -1,0 +1,31 @@
+{
+  "image_key": "wsmnSWS",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Nepal_20110407_182656_683.jpg",
+  "date_time_uploaded": "2011-06-19T16:19:14+00:00",
+  "original_height": 3504,
+  "original_width": 2336,
+  "original_size": 5003126,
+  "images": [
+    "wsmnSWS-Ti.jpg",
+    "wsmnSWS-Th.jpg",
+    "wsmnSWS-S.jpg",
+    "wsmnSWS-M.jpg",
+    "wsmnSWS-L.jpg",
+    "wsmnSWS-XL.jpg",
+    "wsmnSWS-X2.jpg",
+    "wsmnSWS-X3.jpg",
+    "wsmnSWS-Original.jpg"
+  ],
+  "date_time_original": [
+    "2011-04-08T01:26:56+00:00"
+  ]
+}

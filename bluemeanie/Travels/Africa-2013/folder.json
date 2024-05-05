@@ -1,0 +1,20 @@
+{
+  "node_id": "SkTVR",
+  "name": "Africa 2013",
+  "description": "",
+  "privacy": "Public",
+  "keywords": [],
+  "url_name": "Africa-2013",
+  "url_path": "/Travels/Africa-2013",
+  "date_added": "2014-02-23T04:40:40+00:00",
+  "highlight_image_uri": "/api/v2/highlight/node/SkTVR",
+  "child_nodes": [
+    "Chobe",
+    "Lusaka-Backpackers",
+    "Victoria-Falls",
+    "Paddling-down-the-Lower",
+    "Lion-Encounters",
+    "Flat-Dogs-Campsite-South",
+    "Safaris-South-Luangua-National"
+  ]
+}

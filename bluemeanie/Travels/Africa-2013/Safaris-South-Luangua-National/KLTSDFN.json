@@ -1,0 +1,26 @@
+{
+  "image_key": "KLTSDFN",
+  "title": "",
+  "caption": "",
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Zambia-6848.jpg",
+  "date_time_uploaded": "2014-10-07T06:04:24+00:00",
+  "original_height": 3168,
+  "original_width": 4752,
+  "original_size": 7850380,
+  "images": [
+    "KLTSDFN-Ti.jpg",
+    "KLTSDFN-Th.jpg",
+    "KLTSDFN-S.jpg",
+    "KLTSDFN-M.jpg",
+    "KLTSDFN-L.jpg",
+    "KLTSDFN-XL.jpg",
+    "KLTSDFN-X2.jpg",
+    "KLTSDFN-X3.jpg",
+    "KLTSDFN-Original.jpg"
+  ]
+}

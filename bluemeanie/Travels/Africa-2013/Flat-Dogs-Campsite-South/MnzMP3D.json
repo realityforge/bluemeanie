@@ -1,0 +1,26 @@
+{
+  "image_key": "MnzMP3D",
+  "title": "",
+  "caption": "",
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Zambia-7078.jpg",
+  "date_time_uploaded": "2014-10-07T03:13:38+00:00",
+  "original_height": 3168,
+  "original_width": 4752,
+  "original_size": 12820548,
+  "images": [
+    "MnzMP3D-Ti.jpg",
+    "MnzMP3D-Th.jpg",
+    "MnzMP3D-S.jpg",
+    "MnzMP3D-M.jpg",
+    "MnzMP3D-L.jpg",
+    "MnzMP3D-XL.jpg",
+    "MnzMP3D-X2.jpg",
+    "MnzMP3D-X3.jpg",
+    "MnzMP3D-Original.jpg"
+  ]
+}

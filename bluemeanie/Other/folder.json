@@ -1,0 +1,23 @@
+{
+  "node_id": "jhTr9",
+  "name": "Other",
+  "description": "",
+  "privacy": "Public",
+  "keywords": [],
+  "url_name": "Other",
+  "url_path": "/Other",
+  "date_added": "2014-02-23T04:40:40+00:00",
+  "highlight_image_uri": "/api/v2/highlight/node/jhTr9",
+  "child_nodes": [
+    "Street-Art",
+    "Toys",
+    "Custom-Art",
+    "Art",
+    "House",
+    "Profile-Pictures",
+    "Rock-Climbing-Camp",
+    "Amusing",
+    "Architecture",
+    "Tattoo-Designs"
+  ]
+}

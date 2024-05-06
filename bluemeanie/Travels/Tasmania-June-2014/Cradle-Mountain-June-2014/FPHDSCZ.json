@@ -1,0 +1,26 @@
+{
+  "image_key": "FPHDSCZ",
+  "title": "",
+  "caption": "",
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "TasmaniaJune2014-7925.jpg",
+  "date_time_uploaded": "2014-06-24T06:10:17+00:00",
+  "original_height": 3168,
+  "original_width": 4752,
+  "original_size": 9088518,
+  "images": [
+    "FPHDSCZ-Ti.jpg",
+    "FPHDSCZ-Th.jpg",
+    "FPHDSCZ-S.jpg",
+    "FPHDSCZ-M.jpg",
+    "FPHDSCZ-L.jpg",
+    "FPHDSCZ-XL.jpg",
+    "FPHDSCZ-X2.jpg",
+    "FPHDSCZ-X3.jpg",
+    "FPHDSCZ-Original.jpg"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "image_key": "5XSXScK",
+  "title": "",
+  "caption": "My Djembe",
+  "keywords": [
+    "djembe"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Djembe 022.jpg",
+  "date_time_uploaded": "2006-09-06T02:25:32+00:00",
+  "original_height": 953,
+  "original_width": 609,
+  "original_size": 517102,
+  "images": [
+    "5XSXScK-Ti.jpg",
+    "5XSXScK-Th.jpg",
+    "5XSXScK-S.jpg",
+    "5XSXScK-M.jpg",
+    "5XSXScK-L.jpg",
+    "5XSXScK-XL.jpg",
+    "5XSXScK-Original.jpg"
+  ],
+  "date_time_original": [
+    "2006-09-06T19:05:46+00:00"
+  ]
+}

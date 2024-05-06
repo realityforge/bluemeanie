@@ -1,0 +1,26 @@
+{
+  "image_key": "fbph728",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "rock",
+    "climbing"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "rock-climbing1_25.jpg",
+  "date_time_uploaded": "2007-10-03T03:30:04+00:00",
+  "original_height": 601,
+  "original_width": 450,
+  "original_size": 81507,
+  "images": [
+    "fbph728-Ti.jpg",
+    "fbph728-Th.jpg",
+    "fbph728-S.jpg",
+    "fbph728-M.jpg",
+    "fbph728-L.jpg",
+    "fbph728-Original.jpg"
+  ]
+}

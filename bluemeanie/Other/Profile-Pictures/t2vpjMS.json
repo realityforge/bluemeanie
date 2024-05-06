@@ -1,0 +1,24 @@
+{
+  "image_key": "t2vpjMS",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "173121961"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "173121961-L.jpg",
+  "date_time_uploaded": "2007-10-07T11:42:31+00:00",
+  "original_height": 533,
+  "original_width": 545,
+  "original_size": 26810,
+  "images": [
+    "t2vpjMS-Ti.jpg",
+    "t2vpjMS-Th.jpg",
+    "t2vpjMS-S.jpg",
+    "t2vpjMS-M.jpg",
+    "t2vpjMS-Original.jpg"
+  ]
+}

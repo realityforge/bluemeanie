@@ -1,0 +1,30 @@
+{
+  "image_key": "kLVZtTc",
+  "title": "",
+  "caption": "The Church St yikes in all their glory.",
+  "keywords": [
+    "church st",
+    "yike"
+  ],
+  "latitude": "-37.810221",
+  "longitude": "145.000666",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "test 001.jpg",
+  "date_time_uploaded": "2006-09-13T03:51:08+00:00",
+  "original_height": 615,
+  "original_width": 1133,
+  "original_size": 476655,
+  "images": [
+    "kLVZtTc-Ti.jpg",
+    "kLVZtTc-Th.jpg",
+    "kLVZtTc-S.jpg",
+    "kLVZtTc-M.jpg",
+    "kLVZtTc-L.jpg",
+    "kLVZtTc-XL.jpg",
+    "kLVZtTc-Original.jpg"
+  ],
+  "date_time_original": [
+    "2006-09-13T20:41:19+00:00"
+  ]
+}

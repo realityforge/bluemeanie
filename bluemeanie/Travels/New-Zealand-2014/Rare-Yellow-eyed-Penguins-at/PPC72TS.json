@@ -1,0 +1,26 @@
+{
+  "image_key": "PPC72TS",
+  "title": "",
+  "caption": "",
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "NewZealand-8206.jpg",
+  "date_time_uploaded": "2014-10-12T12:47:35+00:00",
+  "original_height": 3168,
+  "original_width": 4752,
+  "original_size": 13029061,
+  "images": [
+    "PPC72TS-Ti.jpg",
+    "PPC72TS-Th.jpg",
+    "PPC72TS-S.jpg",
+    "PPC72TS-M.jpg",
+    "PPC72TS-L.jpg",
+    "PPC72TS-XL.jpg",
+    "PPC72TS-X2.jpg",
+    "PPC72TS-X3.jpg",
+    "PPC72TS-Original.jpg"
+  ]
+}

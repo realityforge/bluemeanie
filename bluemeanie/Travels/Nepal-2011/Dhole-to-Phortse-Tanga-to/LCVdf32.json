@@ -1,0 +1,31 @@
+{
+  "image_key": "LCVdf32",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "Nepal_20110331_103942_420.jpg",
+  "date_time_uploaded": "2011-06-19T09:08:04+00:00",
+  "original_height": 3504,
+  "original_width": 2336,
+  "original_size": 6274473,
+  "images": [
+    "LCVdf32-Ti.jpg",
+    "LCVdf32-Th.jpg",
+    "LCVdf32-S.jpg",
+    "LCVdf32-M.jpg",
+    "LCVdf32-L.jpg",
+    "LCVdf32-XL.jpg",
+    "LCVdf32-X2.jpg",
+    "LCVdf32-X3.jpg",
+    "LCVdf32-Original.jpg"
+  ],
+  "date_time_original": [
+    "2011-03-31T17:39:42+00:00"
+  ]
+}

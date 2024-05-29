@@ -1,0 +1,25 @@
+{
+  "image_key": "SCHG92T",
+  "title": "",
+  "caption": "",
+  "keywords": [
+    "new zealand"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "P1020610.JPG",
+  "date_time_uploaded": "2009-12-27T10:34:11+00:00",
+  "original_height": 666,
+  "original_width": 800,
+  "original_size": 143898,
+  "images": [
+    "SCHG92T-Ti.jpg",
+    "SCHG92T-Th.jpg",
+    "SCHG92T-S.jpg",
+    "SCHG92T-M.jpg",
+    "SCHG92T-L.jpg",
+    "SCHG92T-Original.jpg"
+  ]
+}

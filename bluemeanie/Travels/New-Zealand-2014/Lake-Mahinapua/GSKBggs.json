@@ -1,0 +1,26 @@
+{
+  "image_key": "GSKBggs",
+  "title": "",
+  "caption": "",
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "NewZealand-7985.jpg",
+  "date_time_uploaded": "2014-09-28T23:24:46+00:00",
+  "original_height": 2928,
+  "original_width": 4392,
+  "original_size": 7123365,
+  "images": [
+    "GSKBggs-Ti.jpg",
+    "GSKBggs-Th.jpg",
+    "GSKBggs-S.jpg",
+    "GSKBggs-M.jpg",
+    "GSKBggs-L.jpg",
+    "GSKBggs-XL.jpg",
+    "GSKBggs-X2.jpg",
+    "GSKBggs-X3.jpg",
+    "GSKBggs-Original.jpg"
+  ]
+}

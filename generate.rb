@@ -3,21 +3,20 @@ require 'json'
 
 DIR = File.expand_path(File.dirname(__FILE__))
 
-paths = ['bluemeanie']
+paths = [File.join(DIR, 'bluemeanie')]
 
 while paths.length > 0 do
   path = paths.pop
-  full_path = File.join(DIR, path)
-  folder_path = File.join(full_path, 'folder.json')
-  album_path = File.join(full_path, 'album.json')
+  folder_path = File.join(path, 'folder.json')
+  album_path = File.join(path, 'album.json')
   if File.exist?(folder_path)
+    puts "Generating Folder : #{path.gsub(DIR, '')}"
     data = JSON.load(IO.read(folder_path))
-    puts "Generating Folder #{album_path}"
-    paths.append(data['child_nodes'].collect{|n| File.join(full_path,n)})
+    paths.append(*data['child_nodes'].collect{|n|File.join(path, n)})
   elsif File.exist?(album_path)
+    puts "Generating Album  : #{path.gsub(DIR, '')}"
     data = JSON.load(IO.read(album_path))
-    puts "Generating Album #{album_path}"
   else
-    raise "Failed to process path #{full_path}"
+    raise "Failed to process path #{path.gsub(DIR, '')}"
   end
 end

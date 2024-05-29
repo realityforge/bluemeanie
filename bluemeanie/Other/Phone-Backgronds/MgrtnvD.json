@@ -1,0 +1,28 @@
+{
+  "image_key": "MgrtnvD",
+  "title": "",
+  "caption": "",
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "altitude": 0,
+  "hidden": false,
+  "filename": "IMG_0229.jpg",
+  "date_time_uploaded": "2015-09-07T11:22:22+00:00",
+  "original_height": 960,
+  "original_width": 640,
+  "original_size": 216912,
+  "images": [
+    "MgrtnvD-Ti.jpg",
+    "MgrtnvD-Th.jpg",
+    "MgrtnvD-S.jpg",
+    "MgrtnvD-M.jpg",
+    "MgrtnvD-L.jpg",
+    "MgrtnvD-XL.jpg",
+    "MgrtnvD-X2.jpg",
+    "MgrtnvD-Original.jpg"
+  ],
+  "date_time_original": [
+    "2014-10-11T22:46:36+00:00"
+  ]
+}

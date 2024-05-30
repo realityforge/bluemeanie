@@ -86,10 +86,11 @@ class Folder
   attr_reader :url_path
   attr_reader :date_added
   attr_reader :highlight_image
+  attr_reader :children
 
-  def initialize(node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image)
-    @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image =
-      node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image
+  def initialize(node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children)
+    @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image, @children =
+      node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children
   end
 end
 
@@ -101,19 +102,21 @@ def load_folder(path)
   raise "Duplicate Folder : #{path}" if FOLDERS.key?(path)
   data = JSON.load(IO.read(folder_path))
 
+  children = []
   data['child_nodes'].each do |child_name|
     child_folder_path = File.join(path, child_name, 'folder.json')
     if File.exist?(child_folder_path)
-      load_folder(File.join(path, child_name))
+      children << load_folder(File.join(path, child_name))
     else
-      load_album(File.join(path, child_name))
+      children << load_album(File.join(path, child_name))
     end
   end
 
   FOLDERS[path] = Folder.new(data['node_id'], data['name'], data['description'],
                              data['privacy'], data['keywords'],
                              data['url_name'], data['url_path'], data['date_added'],
-                             IMAGES[data['highlight_image_key']])
+                             IMAGES[data['highlight_image_key']],
+                             children)
 end
 
 def load_album(path)

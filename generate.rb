@@ -57,6 +57,21 @@ class Image
     raise "Unable to locate image of size #{size}" unless size_present?(size)
     "#{@path[1...]}/#{@images[size]}"
   end
+
+  def highlight_local_image_path
+    return local_image_path(:small) if size_present?(:small)
+    return local_image_path(:thumbnail) if size_present?(:thumbnail)
+    return local_image_path(:tiny) if size_present?(:tiny)
+    image_path(:original)
+  end
+
+
+  def highlight_image_path
+    return image_path(:small) if size_present?(:small)
+    return image_path(:thumbnail) if size_present?(:thumbnail)
+    return image_path(:tiny) if size_present?(:tiny)
+    image_path(:original)
+  end
 end
 
 # Album Template Data class
@@ -93,6 +108,10 @@ class Folder
   def initialize(node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children)
     @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image, @children =
       node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children
+  end
+
+  def path_to_root
+    '../' * (url_path.count('/') - 1)
   end
 end
 

@@ -1,17 +1,13 @@
 {
-  "image_key": "zM3dK32",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "-37.8245805556",
-  "longitude": "144.992222222",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Richmond 039.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-11-09T21:27:55+00:00"
+  ],
   "date_time_uploaded": "2006-11-12T06:03:40+00:00",
-  "original_height": 2816,
-  "original_width": 1816,
-  "original_size": 3309329,
+  "filename": "Richmond 039.jpg",
+  "hidden": false,
+  "image_key": "zM3dK32",
   "images": [
     "zM3dK32-Ti.jpg",
     "zM3dK32-Th.jpg",
@@ -23,7 +19,11 @@
     "zM3dK32-X3.jpg",
     "zM3dK32-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-11-09T21:27:55+00:00"
-  ]
+  "keywords": [],
+  "latitude": "-37.8245805556",
+  "longitude": "144.992222222",
+  "original_height": 2816,
+  "original_size": 3309329,
+  "original_width": 1816,
+  "title": ""
 }

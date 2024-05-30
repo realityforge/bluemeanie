@@ -1,12 +1,6 @@
 {
-  "node_id": "ds2CZg",
-  "name": "Fitzroy Crossing",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Fitzroy-Crossing",
-  "url_path": "/Travels/The-Kimberley-2015/Fitzroy-Crossing",
   "date_added": "2015-08-11T01:04:32+00:00",
+  "description": "",
   "highlight_image_key": "kBkbgHG",
   "images": [
     "kBkbgHG",
@@ -46,5 +40,11 @@
     "3xJwT5K",
     "jKM5Z4h",
     "mTRwcZM"
-  ]
+  ],
+  "keywords": [],
+  "name": "Fitzroy Crossing",
+  "node_id": "ds2CZg",
+  "privacy": "Public",
+  "url_name": "Fitzroy-Crossing",
+  "url_path": "/Travels/The-Kimberley-2015/Fitzroy-Crossing"
 }

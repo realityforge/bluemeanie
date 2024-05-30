@@ -1,13 +1,4 @@
 {
-  "node_id": "SkTVR",
-  "name": "Africa 2013",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Africa-2013",
-  "url_path": "/Travels/Africa-2013",
-  "date_added": "2014-02-23T04:40:40+00:00",
-  "highlight_image_key": "gNqmt9h",
   "child_nodes": [
     "Chobe",
     "Lusaka-Backpackers",
@@ -16,5 +7,14 @@
     "Lion-Encounters",
     "Flat-Dogs-Campsite-South",
     "Safaris-South-Luangua-National"
-  ]
+  ],
+  "date_added": "2014-02-23T04:40:40+00:00",
+  "description": "",
+  "highlight_image_key": "gNqmt9h",
+  "keywords": [],
+  "name": "Africa 2013",
+  "node_id": "SkTVR",
+  "privacy": "Public",
+  "url_name": "Africa-2013",
+  "url_path": "/Travels/Africa-2013"
 }

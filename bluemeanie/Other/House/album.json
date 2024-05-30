@@ -1,12 +1,6 @@
 {
-  "node_id": "97CNh",
-  "name": "House",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "House",
-  "url_path": "/Other/House",
   "date_added": "1970-01-01T00:00:00+00:00",
+  "description": "",
   "highlight_image_key": "T5nC6rG",
   "images": [
     "kLVZtTc",
@@ -14,5 +8,11 @@
     "JNZpBF2",
     "FFJdNw7",
     "T5nC6rG"
-  ]
+  ],
+  "keywords": [],
+  "name": "House",
+  "node_id": "97CNh",
+  "privacy": "Public",
+  "url_name": "House",
+  "url_path": "/Other/House"
 }

@@ -1,12 +1,6 @@
 {
-  "node_id": "zJr7f",
-  "name": "Franz Joseph Glacier",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Franz-Joseph-Glacier",
-  "url_path": "/Travels/New-Zealand-2014/Franz-Joseph-Glacier",
   "date_added": "2014-10-12T02:46:39+00:00",
+  "description": "",
   "highlight_image_key": "sSbj4rD",
   "images": [
     "sSbj4rD",
@@ -14,5 +8,11 @@
     "7GMq3hb",
     "x6F3vnZ",
     "rpdqwh5"
-  ]
+  ],
+  "keywords": [],
+  "name": "Franz Joseph Glacier",
+  "node_id": "zJr7f",
+  "privacy": "Public",
+  "url_name": "Franz-Joseph-Glacier",
+  "url_path": "/Travels/New-Zealand-2014/Franz-Joseph-Glacier"
 }

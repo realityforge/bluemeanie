@@ -1,12 +1,6 @@
 {
-  "node_id": "xrmcm",
-  "name": "Chobe National Park, Botswana",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Chobe",
-  "url_path": "/Travels/Africa-2013/Chobe",
   "date_added": "2014-01-10T21:36:04+00:00",
+  "description": "",
   "highlight_image_key": "LT7fgqd",
   "images": [
     "T8Q3zwZ",
@@ -86,5 +80,11 @@
     "dqMwSWd",
     "4CKCT3J",
     "DGHD4LP"
-  ]
+  ],
+  "keywords": [],
+  "name": "Chobe National Park, Botswana",
+  "node_id": "xrmcm",
+  "privacy": "Public",
+  "url_name": "Chobe",
+  "url_path": "/Travels/Africa-2013/Chobe"
 }

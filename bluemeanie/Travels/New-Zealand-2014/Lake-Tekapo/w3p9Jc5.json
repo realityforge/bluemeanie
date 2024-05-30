@@ -1,17 +1,10 @@
 {
-  "image_key": "w3p9Jc5",
-  "title": "",
-  "caption": "The Church of the Good Shepherd.",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "NewZealand-8311.jpg",
+  "caption": "The Church of the Good Shepherd.",
   "date_time_uploaded": "2014-10-12T03:37:03+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 9097858,
+  "filename": "NewZealand-8311.jpg",
+  "hidden": false,
+  "image_key": "w3p9Jc5",
   "images": [
     "w3p9Jc5-Ti.jpg",
     "w3p9Jc5-Th.jpg",
@@ -22,5 +15,12 @@
     "w3p9Jc5-X2.jpg",
     "w3p9Jc5-X3.jpg",
     "w3p9Jc5-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 9097858,
+  "original_width": 4752,
+  "title": ""
 }

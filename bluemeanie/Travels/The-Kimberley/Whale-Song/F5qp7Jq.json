@@ -1,17 +1,10 @@
 {
-  "image_key": "F5qp7Jq",
-  "title": "",
-  "caption": "We had to drive *through* a fuel reduction burn to get to our campsite. It continued to burn into the night along the next ridge.",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "The Kimberley-6251.jpg",
+  "caption": "We had to drive *through* a fuel reduction burn to get to our campsite. It continued to burn into the night along the next ridge.",
   "date_time_uploaded": "2013-08-11T01:18:39+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 13994498,
+  "filename": "The Kimberley-6251.jpg",
+  "hidden": false,
+  "image_key": "F5qp7Jq",
   "images": [
     "F5qp7Jq-Ti.jpg",
     "F5qp7Jq-Th.jpg",
@@ -22,5 +15,12 @@
     "F5qp7Jq-X2.jpg",
     "F5qp7Jq-X3.jpg",
     "F5qp7Jq-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 13994498,
+  "original_width": 4752,
+  "title": ""
 }

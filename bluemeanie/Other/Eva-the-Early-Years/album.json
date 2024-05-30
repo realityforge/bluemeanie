@@ -1,12 +1,6 @@
 {
-  "node_id": "zptTd",
-  "name": "Eva the Early Years",
-  "description": "",
-  "privacy": "Unlisted",
-  "keywords": [],
-  "url_name": "Eva-the-Early-Years",
-  "url_path": "/Other/Eva-the-Early-Years",
   "date_added": "2014-09-20T03:22:06+00:00",
+  "description": "",
   "highlight_image_key": "VnGvNQ8",
   "images": [
     "jwjRKcR",
@@ -23,5 +17,11 @@
     "wdgGjrR",
     "MWvdz2j",
     "wTrJxcv"
-  ]
+  ],
+  "keywords": [],
+  "name": "Eva the Early Years",
+  "node_id": "zptTd",
+  "privacy": "Unlisted",
+  "url_name": "Eva-the-Early-Years",
+  "url_path": "/Other/Eva-the-Early-Years"
 }

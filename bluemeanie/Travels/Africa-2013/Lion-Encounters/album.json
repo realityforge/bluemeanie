@@ -1,12 +1,6 @@
 {
-  "node_id": "4zdGH",
-  "name": "Lion Encounters",
-  "description": "We visited a Lion rehabilitation center just outside Livingstone",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Lion-Encounters",
-  "url_path": "/Travels/Africa-2013/Lion-Encounters",
   "date_added": "2014-10-06T23:07:48+00:00",
+  "description": "We visited a Lion rehabilitation center just outside Livingstone",
   "highlight_image_key": "8c2MGVJ",
   "images": [
     "hdsFrMG",
@@ -109,5 +103,11 @@
     "N9KsLbh",
     "7k8v2B4",
     "qnDQSr7"
-  ]
+  ],
+  "keywords": [],
+  "name": "Lion Encounters",
+  "node_id": "4zdGH",
+  "privacy": "Public",
+  "url_name": "Lion-Encounters",
+  "url_path": "/Travels/Africa-2013/Lion-Encounters"
 }

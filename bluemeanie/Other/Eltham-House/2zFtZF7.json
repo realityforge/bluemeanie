@@ -1,17 +1,13 @@
 {
-  "image_key": "2zFtZF7",
-  "title": "",
-  "caption": "Construction of our garden bed",
-  "keywords": [],
-  "latitude": "-37.707333333333",
-  "longitude": "145.14033333333",
   "altitude": 65,
-  "hidden": false,
-  "filename": "IMG_0175.JPG",
+  "caption": "Construction of our garden bed",
+  "date_time_original": [
+    "2013-11-02T19:19:20+00:00"
+  ],
   "date_time_uploaded": "2014-09-20T03:48:32+00:00",
-  "original_height": 2448,
-  "original_width": 3264,
-  "original_size": 4593382,
+  "filename": "IMG_0175.JPG",
+  "hidden": false,
+  "image_key": "2zFtZF7",
   "images": [
     "2zFtZF7-Ti.jpg",
     "2zFtZF7-Th.jpg",
@@ -23,7 +19,11 @@
     "2zFtZF7-X3.jpg",
     "2zFtZF7-Original.jpg"
   ],
-  "date_time_original": [
-    "2013-11-02T19:19:20+00:00"
-  ]
+  "keywords": [],
+  "latitude": "-37.707333333333",
+  "longitude": "145.14033333333",
+  "original_height": 2448,
+  "original_size": 4593382,
+  "original_width": 3264,
+  "title": ""
 }

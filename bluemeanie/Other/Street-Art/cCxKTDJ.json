@@ -1,19 +1,13 @@
 {
-  "image_key": "cCxKTDJ",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "fixme"
-  ],
-  "latitude": "-37.8203027778",
-  "longitude": "145.007802778",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Richmond 005.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-11-09T20:41:23+00:00"
+  ],
   "date_time_uploaded": "2006-11-12T07:51:09+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2166988,
+  "filename": "Richmond 005.jpg",
+  "hidden": false,
+  "image_key": "cCxKTDJ",
   "images": [
     "cCxKTDJ-Ti.jpg",
     "cCxKTDJ-Th.jpg",
@@ -25,7 +19,13 @@
     "cCxKTDJ-X3.jpg",
     "cCxKTDJ-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-11-09T20:41:23+00:00"
-  ]
+  "keywords": [
+    "fixme"
+  ],
+  "latitude": "-37.8203027778",
+  "longitude": "145.007802778",
+  "original_height": 2112,
+  "original_size": 2166988,
+  "original_width": 2816,
+  "title": ""
 }

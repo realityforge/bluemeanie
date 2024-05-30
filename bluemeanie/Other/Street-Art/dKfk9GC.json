@@ -1,19 +1,13 @@
 {
-  "image_key": "dKfk9GC",
-  "title": "",
-  "caption": "Blue devil",
-  "keywords": [
-    "brunswick st"
-  ],
-  "latitude": "-37.7950138889",
-  "longitude": "144.978186111",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Rubber Ducky 013.jpg",
+  "caption": "Blue devil",
+  "date_time_original": [
+    "2006-12-11T23:29:53+00:00"
+  ],
   "date_time_uploaded": "2006-12-12T07:26:12+00:00",
-  "original_height": 2816,
-  "original_width": 2112,
-  "original_size": 3860050,
+  "filename": "Rubber Ducky 013.jpg",
+  "hidden": false,
+  "image_key": "dKfk9GC",
   "images": [
     "dKfk9GC-Ti.jpg",
     "dKfk9GC-Th.jpg",
@@ -25,7 +19,13 @@
     "dKfk9GC-X3.jpg",
     "dKfk9GC-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-12-11T23:29:53+00:00"
-  ]
+  "keywords": [
+    "brunswick st"
+  ],
+  "latitude": "-37.7950138889",
+  "longitude": "144.978186111",
+  "original_height": 2816,
+  "original_size": 3860050,
+  "original_width": 2112,
+  "title": ""
 }

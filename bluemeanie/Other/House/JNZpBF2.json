@@ -1,20 +1,13 @@
 {
-  "image_key": "JNZpBF2",
-  "title": "",
-  "caption": "Bikes, glorious bikes!",
-  "keywords": [
-    "bike",
-    "church st"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Bikes 005.jpg",
+  "caption": "Bikes, glorious bikes!",
+  "date_time_original": [
+    "2006-09-23T15:45:37+00:00"
+  ],
   "date_time_uploaded": "2006-09-22T23:10:00+00:00",
-  "original_height": 1232,
-  "original_width": 776,
-  "original_size": 595043,
+  "filename": "Bikes 005.jpg",
+  "hidden": false,
+  "image_key": "JNZpBF2",
   "images": [
     "JNZpBF2-Ti.jpg",
     "JNZpBF2-Th.jpg",
@@ -26,7 +19,14 @@
     "JNZpBF2-X3.jpg",
     "JNZpBF2-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-09-23T15:45:37+00:00"
-  ]
+  "keywords": [
+    "bike",
+    "church st"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1232,
+  "original_size": 595043,
+  "original_width": 776,
+  "title": ""
 }

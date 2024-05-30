@@ -1,12 +1,6 @@
 {
-  "node_id": "HMws7",
-  "name": "House Ideas",
-  "description": "Ideas to pursue when we have a house",
-  "privacy": "Unlisted",
-  "keywords": [],
-  "url_name": "House-Ideas",
-  "url_path": "/Other/House-Ideas",
   "date_added": "2013-08-11T02:30:23+00:00",
+  "description": "Ideas to pursue when we have a house",
   "highlight_image_key": "3R7bp2S",
   "images": [
     "3R7bp2S",
@@ -16,5 +10,11 @@
     "wQ2ZTbQ",
     "QQpsLK9",
     "Nxc2ck3"
-  ]
+  ],
+  "keywords": [],
+  "name": "House Ideas",
+  "node_id": "HMws7",
+  "privacy": "Unlisted",
+  "url_name": "House-Ideas",
+  "url_path": "/Other/House-Ideas"
 }

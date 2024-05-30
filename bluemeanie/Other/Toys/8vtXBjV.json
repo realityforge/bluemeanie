@@ -1,30 +1,28 @@
 {
-  "image_key": "8vtXBjV",
-  "title": "",
-  "caption": "Maton C125",
-  "keywords": [
-    "guitar"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Guitar 024.jpg",
+  "caption": "Maton C125",
+  "date_time_original": [
+    "2006-09-06T19:35:03+00:00"
+  ],
   "date_time_uploaded": "2006-09-06T02:45:16+00:00",
-  "original_height": 1008,
-  "original_width": 536,
-  "original_size": 325797,
+  "filename": "Guitar 024.jpg",
+  "hidden": false,
+  "image_key": "8vtXBjV",
   "images": [
     "8vtXBjV-Ti.jpg",
     "8vtXBjV-Th.jpg",
     "8vtXBjV-S.jpg",
     "8vtXBjV-M.jpg",
     "8vtXBjV-L.jpg",
-    "8vtXBjV-XL.jpg",
-    "8vtXBjV-X2.jpg",
     "8vtXBjV-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-09-06T19:35:03+00:00"
-  ]
+  "keywords": [
+    "guitar"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1008,
+  "original_size": 325797,
+  "original_width": 536,
+  "title": ""
 }

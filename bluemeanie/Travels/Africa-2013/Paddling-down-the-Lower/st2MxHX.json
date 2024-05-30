@@ -1,17 +1,10 @@
 {
-  "image_key": "st2MxHX",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-7643.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-09-28T23:38:16+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 8710655,
+  "filename": "Zambia-7643.jpg",
+  "hidden": false,
+  "image_key": "st2MxHX",
   "images": [
     "st2MxHX-Ti.jpg",
     "st2MxHX-Th.jpg",
@@ -22,5 +15,12 @@
     "st2MxHX-X2.jpg",
     "st2MxHX-X3.jpg",
     "st2MxHX-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 8710655,
+  "original_width": 4752,
+  "title": ""
 }

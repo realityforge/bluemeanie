@@ -1,17 +1,10 @@
 {
-  "image_key": "ZTF6sZt",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-7228.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-01-11T03:20:32+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 7456678,
+  "filename": "Zambia-7228.jpg",
+  "hidden": false,
+  "image_key": "ZTF6sZt",
   "images": [
     "ZTF6sZt-Ti.jpg",
     "ZTF6sZt-Th.jpg",
@@ -22,5 +15,12 @@
     "ZTF6sZt-X2.jpg",
     "ZTF6sZt-X3.jpg",
     "ZTF6sZt-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 7456678,
+  "original_width": 4752,
+  "title": ""
 }

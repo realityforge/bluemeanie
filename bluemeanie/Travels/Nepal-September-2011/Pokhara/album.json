@@ -1,12 +1,6 @@
 {
-  "node_id": "CjZPG",
-  "name": "Pokhara",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Pokhara",
-  "url_path": "/Travels/Nepal-September-2011/Pokhara",
   "date_added": "2014-01-11T04:10:39+00:00",
+  "description": "",
   "highlight_image_key": "cJw42vZ",
   "images": [
     "cJw42vZ",
@@ -35,5 +29,11 @@
     "wRKQrRw",
     "XZqZ5SQ",
     "VG8hnsx"
-  ]
+  ],
+  "keywords": [],
+  "name": "Pokhara",
+  "node_id": "CjZPG",
+  "privacy": "Public",
+  "url_name": "Pokhara",
+  "url_path": "/Travels/Nepal-September-2011/Pokhara"
 }

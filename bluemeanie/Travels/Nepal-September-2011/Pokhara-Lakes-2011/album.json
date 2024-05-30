@@ -1,12 +1,6 @@
 {
-  "node_id": "VKwnM",
-  "name": "Pokhara Lakes",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Pokhara-Lakes-2011",
-  "url_path": "/Travels/Nepal-September-2011/Pokhara-Lakes-2011",
   "date_added": "2014-08-08T01:25:15+00:00",
+  "description": "",
   "highlight_image_key": "dCZpWrC",
   "images": [
     "K2sXKN5",
@@ -36,5 +30,11 @@
     "w4n2LsD",
     "Bgft4Vg",
     "dmzdqHn"
-  ]
+  ],
+  "keywords": [],
+  "name": "Pokhara Lakes",
+  "node_id": "VKwnM",
+  "privacy": "Public",
+  "url_name": "Pokhara-Lakes-2011",
+  "url_path": "/Travels/Nepal-September-2011/Pokhara-Lakes-2011"
 }

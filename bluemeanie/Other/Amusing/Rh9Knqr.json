@@ -1,17 +1,13 @@
 {
-  "image_key": "Rh9Knqr",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "photo.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2011-10-24T15:52:34+00:00"
+  ],
   "date_time_uploaded": "2011-10-23T22:39:25+00:00",
-  "original_height": 480,
-  "original_width": 640,
-  "original_size": 112217,
+  "filename": "photo.JPG",
+  "hidden": false,
+  "image_key": "Rh9Knqr",
   "images": [
     "Rh9Knqr-Ti.jpg",
     "Rh9Knqr-Th.jpg",
@@ -19,7 +15,11 @@
     "Rh9Knqr-M.jpg",
     "Rh9Knqr-Original.jpg"
   ],
-  "date_time_original": [
-    "2011-10-24T15:52:34+00:00"
-  ]
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 480,
+  "original_size": 112217,
+  "original_width": 640,
+  "title": ""
 }

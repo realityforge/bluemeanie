@@ -1,19 +1,13 @@
 {
-  "image_key": "wmGdtHD",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "fixme"
-  ],
-  "latitude": "-37.8201111111",
-  "longitude": "145.007830556",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Richmond 002.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-11-09T20:40:29+00:00"
+  ],
   "date_time_uploaded": "2006-11-12T07:42:14+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2345592,
+  "filename": "Richmond 002.jpg",
+  "hidden": false,
+  "image_key": "wmGdtHD",
   "images": [
     "wmGdtHD-Ti.jpg",
     "wmGdtHD-Th.jpg",
@@ -25,7 +19,13 @@
     "wmGdtHD-X3.jpg",
     "wmGdtHD-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-11-09T20:40:29+00:00"
-  ]
+  "keywords": [
+    "fixme"
+  ],
+  "latitude": "-37.8201111111",
+  "longitude": "145.007830556",
+  "original_height": 2112,
+  "original_size": 2345592,
+  "original_width": 2816,
+  "title": ""
 }

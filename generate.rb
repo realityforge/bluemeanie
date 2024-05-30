@@ -55,7 +55,7 @@ class Image
 
   def image_path(size)
     raise "Unable to locate image of size #{size}" unless size_present?(size)
-    "#{path}/#{@images[size]}"
+    "#{@path[1...]}/#{@images[size]}"
   end
 end
 
@@ -130,7 +130,7 @@ def load_album(path)
   data['images'].each do |image_name|
     # puts "Loading Image : #{path.gsub("#{DIR}/", '')}/#{image_name}"
     image_data = JSON.load(IO.read(File.join(path, "#{image_name}.json")))
-    IMAGES[image_name] = Image.new(image_data['image_key'], path, image_data['title'],
+    IMAGES[image_name] = Image.new(image_data['image_key'], data['url_path'], image_data['title'],
                                    image_data['caption'], image_data['keywords'],
                                    image_data['latitude'], image_data['longitude'],
                                    image_data['altitude'], image_data['hidden'],

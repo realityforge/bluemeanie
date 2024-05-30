@@ -1,21 +1,13 @@
 {
-  "image_key": "fmkSnnG",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "greymouth",
-    "kim bagot"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_17_104657.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-11-17T18:46:57+00:00"
+  ],
   "date_time_uploaded": "2009-12-28T06:38:11+00:00",
-  "original_height": 4701,
-  "original_width": 3134,
-  "original_size": 7769871,
+  "filename": "2009_11_17_104657.JPG",
+  "hidden": false,
+  "image_key": "fmkSnnG",
   "images": [
     "fmkSnnG-Ti.jpg",
     "fmkSnnG-Th.jpg",
@@ -27,7 +19,15 @@
     "fmkSnnG-X3.jpg",
     "fmkSnnG-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-17T18:46:57+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "greymouth",
+    "kim bagot"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4701,
+  "original_size": 7769871,
+  "original_width": 3134,
+  "title": ""
 }

@@ -97,7 +97,7 @@ def load_folder(path)
   folder_path = File.join(path, 'folder.json')
   return nil unless File.exist?(folder_path)
 
-  puts "Loading Folder : #{path.gsub("#{DIR}/",'')}"
+  puts "Loading Folder : #{path.gsub("#{DIR}/", '')}"
   raise "Duplicate Folder : #{path}" if FOLDERS.key?(path)
   data = JSON.load(IO.read(folder_path))
 
@@ -118,21 +118,21 @@ end
 
 def load_album(path)
   album_path = File.join(path, 'album.json')
-  puts "Loading Album  : #{path.gsub("#{DIR}/",'')}"
+  puts "Loading Album  : #{path.gsub("#{DIR}/", '')}"
   raise "Duplicate Album  : #{path}" if FOLDERS.key?(path)
   data = JSON.load(IO.read(album_path))
 
   data['images'].each do |image_name|
-    puts "Loading Folder : #{path.gsub("#{DIR}/",'')}/#{image_name}"
+    puts "Loading Folder : #{path.gsub("#{DIR}/", '')}/#{image_name}"
     image_data = JSON.load(IO.read(File.join(path, "#{image_name}.json")))
     IMAGES[image_name] = Image.new(image_data['image_key'], path, image_data['title'],
-                             image_data['caption'], image_data['keywords'],
-                             image_data['latitude'], image_data['longitude'],
-                             image_data['altitude'], image_data['hidden'],
-                             image_data['filename'], image_data['date_time_uploaded'],
-                             image_data['original_height'], image_data['original_width'],
-                             image_data['original_size'], image_data['images'],
-                             image_data['date_time_original'])
+                                   image_data['caption'], image_data['keywords'],
+                                   image_data['latitude'], image_data['longitude'],
+                                   image_data['altitude'], image_data['hidden'],
+                                   image_data['filename'], image_data['date_time_uploaded'],
+                                   image_data['original_height'], image_data['original_width'],
+                                   image_data['original_size'], image_data['images'],
+                                   image_data['date_time_original'])
   end
 
   highlight_image = IMAGES[data['highlight_image_key']]

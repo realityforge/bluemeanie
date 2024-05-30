@@ -1,5 +1,6 @@
 require 'erb'
 require 'json'
+require 'fileutils'
 
 DIR = File.expand_path(File.dirname(__FILE__))
 

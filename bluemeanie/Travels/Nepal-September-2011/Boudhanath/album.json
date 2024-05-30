@@ -1,12 +1,6 @@
 {
-  "node_id": "9spgC",
-  "name": "Boudhanath",
-  "description": "Boudhanath is a buddhist sacred site not far out of Kathmandu. We were lucky enough to visit on Sunset and watch everyone walk around the main stupa",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Boudhanath",
-  "url_path": "/Travels/Nepal-September-2011/Boudhanath",
   "date_added": "2014-02-10T06:10:50+00:00",
+  "description": "Boudhanath is a buddhist sacred site not far out of Kathmandu. We were lucky enough to visit on Sunset and watch everyone walk around the main stupa",
   "highlight_image_key": "3BRrqWP",
   "images": [
     "HSbXM9D",
@@ -32,5 +26,11 @@
     "khJBzgQ",
     "xbJps7m",
     "z6G4Dzr"
-  ]
+  ],
+  "keywords": [],
+  "name": "Boudhanath",
+  "node_id": "9spgC",
+  "privacy": "Public",
+  "url_name": "Boudhanath",
+  "url_path": "/Travels/Nepal-September-2011/Boudhanath"
 }

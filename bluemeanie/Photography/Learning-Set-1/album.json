@@ -1,12 +1,6 @@
 {
-  "node_id": "FqTSL",
-  "name": "Learning the Camera Around the House",
-  "description": "A record of me playing with the new camera for the first time",
-  "privacy": "Unlisted",
-  "keywords": [],
-  "url_name": "Learning-Set-1",
-  "url_path": "/Photography/Learning-Set-1",
   "date_added": "2009-10-21T01:08:39+00:00",
+  "description": "A record of me playing with the new camera for the first time",
   "highlight_image_key": "GhbXkB9",
   "images": [
     "ntmRTrL",
@@ -46,5 +40,11 @@
     "qML4HVc",
     "WJrr6j8",
     "6gKJP4s"
-  ]
+  ],
+  "keywords": [],
+  "name": "Learning the Camera Around the House",
+  "node_id": "FqTSL",
+  "privacy": "Unlisted",
+  "url_name": "Learning-Set-1",
+  "url_path": "/Photography/Learning-Set-1"
 }

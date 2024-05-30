@@ -1,17 +1,10 @@
 {
-  "image_key": "jBrH28W",
-  "title": "",
-  "caption": "Elephant often got in the way when we tried to return to our tents",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-6372.jpg",
+  "caption": "Elephant often got in the way when we tried to return to our tents",
   "date_time_uploaded": "2014-10-07T03:53:07+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 14394841,
+  "filename": "Zambia-6372.jpg",
+  "hidden": false,
+  "image_key": "jBrH28W",
   "images": [
     "jBrH28W-Ti.jpg",
     "jBrH28W-Th.jpg",
@@ -22,5 +15,12 @@
     "jBrH28W-X2.jpg",
     "jBrH28W-X3.jpg",
     "jBrH28W-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 14394841,
+  "original_width": 4752,
+  "title": ""
 }

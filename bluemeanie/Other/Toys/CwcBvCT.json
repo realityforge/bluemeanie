@@ -1,19 +1,13 @@
 {
-  "image_key": "CwcBvCT",
-  "title": "",
-  "caption": "My beloved Darth Yike! (yike is to bike what unicycle is to bicycle)",
-  "keywords": [
-    "yike"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "RIMG0014.jpg",
+  "caption": "My beloved Darth Yike! (yike is to bike what unicycle is to bicycle)",
+  "date_time_original": [
+    "2006-09-06T17:58:19+00:00"
+  ],
   "date_time_uploaded": "2006-09-06T01:27:11+00:00",
-  "original_height": 886,
-  "original_width": 768,
-  "original_size": 553947,
+  "filename": "RIMG0014.jpg",
+  "hidden": false,
+  "image_key": "CwcBvCT",
   "images": [
     "CwcBvCT-Ti.jpg",
     "CwcBvCT-Th.jpg",
@@ -23,7 +17,13 @@
     "CwcBvCT-XL.jpg",
     "CwcBvCT-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-09-06T17:58:19+00:00"
-  ]
+  "keywords": [
+    "yike"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 886,
+  "original_size": 553947,
+  "original_width": 768,
+  "title": ""
 }

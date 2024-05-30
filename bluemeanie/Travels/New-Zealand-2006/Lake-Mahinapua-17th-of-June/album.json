@@ -1,12 +1,6 @@
 {
-  "node_id": "29XVM",
-  "name": "Lake Mahinapua (17th of June)",
-  "description": "Lake Mahinapua is a beautiful lake just a short walk from the famous 'Poo pub'",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Lake-Mahinapua-17th-of-June",
-  "url_path": "/Travels/New-Zealand-2006/Lake-Mahinapua-17th-of-June",
   "date_added": "1970-01-01T00:00:00+00:00",
+  "description": "Lake Mahinapua is a beautiful lake just a short walk from the famous 'Poo pub'",
   "highlight_image_key": "rcGDxrr",
   "images": [
     "rcGDxrr",
@@ -20,5 +14,11 @@
     "FvBkZTc",
     "N6g4mJm",
     "54xtFVw"
-  ]
+  ],
+  "keywords": [],
+  "name": "Lake Mahinapua (17th of June)",
+  "node_id": "29XVM",
+  "privacy": "Public",
+  "url_name": "Lake-Mahinapua-17th-of-June",
+  "url_path": "/Travels/New-Zealand-2006/Lake-Mahinapua-17th-of-June"
 }

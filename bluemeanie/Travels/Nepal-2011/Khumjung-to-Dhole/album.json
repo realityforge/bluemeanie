@@ -1,12 +1,6 @@
 {
-  "node_id": "ZG2cf",
-  "name": "Khumjung to Dhole",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Khumjung-to-Dhole",
-  "url_path": "/Travels/Nepal-2011/Khumjung-to-Dhole",
   "date_added": "2011-06-23T10:25:47+00:00",
+  "description": "",
   "highlight_image_key": "dZsNhWK",
   "images": [
     "dZsNhWK",
@@ -19,5 +13,11 @@
     "CHbXfjN",
     "27JTwxN",
     "5bzNCp6"
-  ]
+  ],
+  "keywords": [],
+  "name": "Khumjung to Dhole",
+  "node_id": "ZG2cf",
+  "privacy": "Public",
+  "url_name": "Khumjung-to-Dhole",
+  "url_path": "/Travels/Nepal-2011/Khumjung-to-Dhole"
 }

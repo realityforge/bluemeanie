@@ -1,13 +1,4 @@
 {
-  "node_id": "Rz9qX",
-  "name": "Nepal 2011",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Nepal-2011",
-  "url_path": "/Travels/Nepal-2011",
-  "date_added": "2014-02-23T04:40:39+00:00",
-  "highlight_image_key": "9Tj3T6C",
   "child_nodes": [
     "Lhukla-to-Namch-Bazaar",
     "Gokyo",
@@ -28,5 +19,14 @@
     "Syangboche",
     "Mountain-Goats",
     "Country-side"
-  ]
+  ],
+  "date_added": "2014-02-23T04:40:39+00:00",
+  "description": "",
+  "highlight_image_key": "9Tj3T6C",
+  "keywords": [],
+  "name": "Nepal 2011",
+  "node_id": "Rz9qX",
+  "privacy": "Public",
+  "url_name": "Nepal-2011",
+  "url_path": "/Travels/Nepal-2011"
 }

@@ -1,17 +1,10 @@
 {
-  "image_key": "WBcn96s",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-7699.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-09-28T23:32:52+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 7932208,
+  "filename": "Zambia-7699.jpg",
+  "hidden": false,
+  "image_key": "WBcn96s",
   "images": [
     "WBcn96s-Ti.jpg",
     "WBcn96s-Th.jpg",
@@ -22,5 +15,12 @@
     "WBcn96s-X2.jpg",
     "WBcn96s-X3.jpg",
     "WBcn96s-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 7932208,
+  "original_width": 4752,
+  "title": ""
 }

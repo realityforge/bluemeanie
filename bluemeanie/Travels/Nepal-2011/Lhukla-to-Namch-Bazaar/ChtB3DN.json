@@ -1,19 +1,13 @@
 {
-  "image_key": "ChtB3DN",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "Nepal"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Nepal_20110322_121037_100.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2011-03-22T19:10:37+00:00"
+  ],
   "date_time_uploaded": "2011-06-17T19:39:17+00:00",
-  "original_height": 4752,
-  "original_width": 3168,
-  "original_size": 10271585,
+  "filename": "Nepal_20110322_121037_100.jpg",
+  "hidden": false,
+  "image_key": "ChtB3DN",
   "images": [
     "ChtB3DN-Ti.jpg",
     "ChtB3DN-Th.jpg",
@@ -25,7 +19,13 @@
     "ChtB3DN-X3.jpg",
     "ChtB3DN-Original.jpg"
   ],
-  "date_time_original": [
-    "2011-03-22T19:10:37+00:00"
-  ]
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4752,
+  "original_size": 10271585,
+  "original_width": 3168,
+  "title": ""
 }

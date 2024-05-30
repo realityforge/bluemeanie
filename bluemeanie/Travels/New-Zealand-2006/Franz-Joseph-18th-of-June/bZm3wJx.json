@@ -1,20 +1,13 @@
 {
-  "image_key": "bZm3wJx",
-  "title": "",
-  "caption": "The kiwi bus we traveled on and a rainbow in Franz Joseph township",
-  "keywords": [
-    "new zealand",
-    "franz joseph"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart 070.jpg",
+  "caption": "The kiwi bus we traveled on and a rainbow in Franz Joseph township",
+  "date_time_original": [
+    "2006-06-17T21:46:19+00:00"
+  ],
   "date_time_uploaded": "2006-06-30T07:24:52+00:00",
-  "original_height": 3456,
-  "original_width": 2304,
-  "original_size": 2099131,
+  "filename": "Stuart 070.jpg",
+  "hidden": false,
+  "image_key": "bZm3wJx",
   "images": [
     "bZm3wJx-Ti.jpg",
     "bZm3wJx-Th.jpg",
@@ -26,7 +19,14 @@
     "bZm3wJx-X3.jpg",
     "bZm3wJx-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T21:46:19+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "franz joseph"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3456,
+  "original_size": 2099131,
+  "original_width": 2304,
+  "title": ""
 }

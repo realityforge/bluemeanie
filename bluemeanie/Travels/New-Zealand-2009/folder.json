@@ -1,13 +1,4 @@
 {
-  "node_id": "gqSrX",
-  "name": "New Zealand 2009",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "New-Zealand-2009",
-  "url_path": "/Travels/New-Zealand-2009",
-  "date_added": "2014-02-23T04:40:38+00:00",
-  "highlight_image_key": "k5NXnBC",
   "child_nodes": [
     "Abel-Tasman",
     "Birthday-Playground-Madness",
@@ -41,5 +32,14 @@
     "Arthurs-Pass-and-Surrounds",
     "Lake-Tekapo",
     "Random-Walk"
-  ]
+  ],
+  "date_added": "2014-02-23T04:40:38+00:00",
+  "description": "",
+  "highlight_image_key": "k5NXnBC",
+  "keywords": [],
+  "name": "New Zealand 2009",
+  "node_id": "gqSrX",
+  "privacy": "Public",
+  "url_name": "New-Zealand-2009",
+  "url_path": "/Travels/New-Zealand-2009"
 }

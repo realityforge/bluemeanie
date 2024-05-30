@@ -1,12 +1,6 @@
 {
-  "node_id": "VmXSj",
-  "name": "Malaysia (14th - 21st of December, 2009)",
-  "description": "I traveled to Malaysia to present at the MICC'09 conference and stuck around for a few days after.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Malaysia-2009",
-  "url_path": "/Travels/Malaysia-2009",
   "date_added": "2009-12-24T05:38:25+00:00",
+  "description": "I traveled to Malaysia to present at the MICC'09 conference and stuck around for a few days after.",
   "highlight_image_key": "PXXSLGN",
   "images": [
     "PXXSLGN",
@@ -32,5 +26,11 @@
     "F3Hkpfc",
     "zkFdnXz",
     "6p3GPr4"
-  ]
+  ],
+  "keywords": [],
+  "name": "Malaysia (14th - 21st of December, 2009)",
+  "node_id": "VmXSj",
+  "privacy": "Public",
+  "url_name": "Malaysia-2009",
+  "url_path": "/Travels/Malaysia-2009"
 }

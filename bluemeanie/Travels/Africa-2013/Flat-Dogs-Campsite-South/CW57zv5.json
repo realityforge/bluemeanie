@@ -1,17 +1,10 @@
 {
-  "image_key": "CW57zv5",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-6447.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-10-07T03:34:17+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 17873673,
+  "filename": "Zambia-6447.jpg",
+  "hidden": false,
+  "image_key": "CW57zv5",
   "images": [
     "CW57zv5-Ti.jpg",
     "CW57zv5-Th.jpg",
@@ -22,5 +15,12 @@
     "CW57zv5-X2.jpg",
     "CW57zv5-X3.jpg",
     "CW57zv5-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 17873673,
+  "original_width": 4752,
+  "title": ""
 }

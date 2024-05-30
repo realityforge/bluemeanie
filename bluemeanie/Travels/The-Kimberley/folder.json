@@ -1,13 +1,4 @@
 {
-  "node_id": "2RVLs",
-  "name": "The Kimberley 2013",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "The-Kimberley",
-  "url_path": "/Travels/The-Kimberley",
-  "date_added": "2014-02-23T04:40:40+00:00",
-  "highlight_image_key": "cD4FJTz",
   "child_nodes": [
     "Whale-Song",
     "Staircase-to-the-Moon",
@@ -16,5 +7,14 @@
     "Kooljaman-at-Cape-Leveque",
     "Cable-Beach",
     "Boabs-and-other-flora"
-  ]
+  ],
+  "date_added": "2014-02-23T04:40:40+00:00",
+  "description": "",
+  "highlight_image_key": "cD4FJTz",
+  "keywords": [],
+  "name": "The Kimberley 2013",
+  "node_id": "2RVLs",
+  "privacy": "Public",
+  "url_name": "The-Kimberley",
+  "url_path": "/Travels/The-Kimberley"
 }

@@ -1,12 +1,6 @@
 {
-  "node_id": "V8JnMP",
-  "name": "Mowanjum Festival",
-  "description": "A local community put on a cultural festival.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Mowanjum-Festival",
-  "url_path": "/Travels/The-Kimberley-2015/Mowanjum-Festival",
   "date_added": "2015-08-11T00:37:31+00:00",
+  "description": "A local community put on a cultural festival.",
   "highlight_image_key": "BH2s9gh",
   "images": [
     "xVGmvLB",
@@ -17,5 +11,11 @@
     "R22pKQ9",
     "b3bQ35z",
     "BH2s9gh"
-  ]
+  ],
+  "keywords": [],
+  "name": "Mowanjum Festival",
+  "node_id": "V8JnMP",
+  "privacy": "Public",
+  "url_name": "Mowanjum-Festival",
+  "url_path": "/Travels/The-Kimberley-2015/Mowanjum-Festival"
 }

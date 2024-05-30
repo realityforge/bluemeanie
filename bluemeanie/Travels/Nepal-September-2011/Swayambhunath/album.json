@@ -1,12 +1,6 @@
 {
-  "node_id": "wp3bc",
-  "name": "Swayambhunath, the Monkey Temple",
-  "description": "The monkey temple is at the top of a steep climb but luckily there is many monkeys to entertain us on the way up. \n\nThe top is a stupa that is part market, part Buddhist temple and part hindu temple.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Swayambhunath",
-  "url_path": "/Travels/Nepal-September-2011/Swayambhunath",
   "date_added": "2014-02-10T06:06:54+00:00",
+  "description": "The monkey temple is at the top of a steep climb but luckily there is many monkeys to entertain us on the way up. \n\nThe top is a stupa that is part market, part Buddhist temple and part hindu temple.",
   "highlight_image_key": "QzZjq7q",
   "images": [
     "QzZjq7q",
@@ -36,5 +30,11 @@
     "FcDBP4V",
     "vqfmCqj",
     "kD4Hsrb"
-  ]
+  ],
+  "keywords": [],
+  "name": "Swayambhunath, the Monkey Temple",
+  "node_id": "wp3bc",
+  "privacy": "Public",
+  "url_name": "Swayambhunath",
+  "url_path": "/Travels/Nepal-September-2011/Swayambhunath"
 }

@@ -1,12 +1,6 @@
 {
-  "node_id": "R23Rn",
-  "name": "Lhukla to Namch Bazaar",
-  "description": "We arrived at Lhukla - the dramatic high altitude airport at the start of the walk and then spent a few days walking to Namche Bazaar, stopping at Phakding overnight.  A nice introduction to the Himalayas.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Lhukla-to-Namch-Bazaar",
-  "url_path": "/Travels/Nepal-2011/Lhukla-to-Namch-Bazaar",
   "date_added": "2011-06-23T09:58:40+00:00",
+  "description": "We arrived at Lhukla - the dramatic high altitude airport at the start of the walk and then spent a few days walking to Namche Bazaar, stopping at Phakding overnight.  A nice introduction to the Himalayas.",
   "highlight_image_key": "3mdxNmN",
   "images": [
     "MZ4KXbH",
@@ -62,5 +56,11 @@
     "xgtTr6q",
     "ZdFQkq9",
     "XnmDHZr"
-  ]
+  ],
+  "keywords": [],
+  "name": "Lhukla to Namch Bazaar",
+  "node_id": "R23Rn",
+  "privacy": "Public",
+  "url_name": "Lhukla-to-Namch-Bazaar",
+  "url_path": "/Travels/Nepal-2011/Lhukla-to-Namch-Bazaar"
 }

@@ -1,17 +1,13 @@
 {
-  "image_key": "GzjfNbb",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "-37.8260972222",
-  "longitude": "145.005452778",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Richmond 016.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-11-09T20:48:45+00:00"
+  ],
   "date_time_uploaded": "2006-11-12T05:34:25+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 3781700,
+  "filename": "Richmond 016.jpg",
+  "hidden": false,
+  "image_key": "GzjfNbb",
   "images": [
     "GzjfNbb-Ti.jpg",
     "GzjfNbb-Th.jpg",
@@ -23,7 +19,11 @@
     "GzjfNbb-X3.jpg",
     "GzjfNbb-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-11-09T20:48:45+00:00"
-  ]
+  "keywords": [],
+  "latitude": "-37.8260972222",
+  "longitude": "145.005452778",
+  "original_height": 2112,
+  "original_size": 3781700,
+  "original_width": 2816,
+  "title": ""
 }

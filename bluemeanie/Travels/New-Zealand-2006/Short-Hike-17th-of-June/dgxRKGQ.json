@@ -1,19 +1,13 @@
 {
-  "image_key": "dgxRKGQ",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart 061.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-17T19:38:24+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T11:03:10+00:00",
-  "original_height": 2304,
-  "original_width": 3456,
-  "original_size": 2079580,
+  "filename": "Stuart 061.jpg",
+  "hidden": false,
+  "image_key": "dgxRKGQ",
   "images": [
     "dgxRKGQ-Ti.jpg",
     "dgxRKGQ-Th.jpg",
@@ -25,7 +19,13 @@
     "dgxRKGQ-X3.jpg",
     "dgxRKGQ-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T19:38:24+00:00"
-  ]
+  "keywords": [
+    "new zealand"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2304,
+  "original_size": 2079580,
+  "original_width": 3456,
+  "title": ""
 }

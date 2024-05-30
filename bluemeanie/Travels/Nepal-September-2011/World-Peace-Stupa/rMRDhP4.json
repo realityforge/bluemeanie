@@ -1,17 +1,13 @@
 {
-  "image_key": "rMRDhP4",
-  "title": "",
-  "caption": "The stupa as seen from lake side at night.",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_4889.jpg",
+  "caption": "The stupa as seen from lake side at night.",
+  "date_time_original": [
+    "2011-09-21T06:44:48+00:00"
+  ],
   "date_time_uploaded": "2011-12-26T06:43:53+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 13695271,
+  "filename": "IMG_4889.jpg",
+  "hidden": false,
+  "image_key": "rMRDhP4",
   "images": [
     "rMRDhP4-Ti.jpg",
     "rMRDhP4-Th.jpg",
@@ -23,7 +19,11 @@
     "rMRDhP4-X3.jpg",
     "rMRDhP4-Original.jpg"
   ],
-  "date_time_original": [
-    "2011-09-21T06:44:48+00:00"
-  ]
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 13695271,
+  "original_width": 4752,
+  "title": ""
 }

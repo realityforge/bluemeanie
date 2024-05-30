@@ -1,19 +1,13 @@
 {
-  "image_key": "ZXZZ6mk",
-  "title": "",
-  "caption": "Kompleks Dayabumi",
-  "keywords": [
-    "Malaysia"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_12_17_134609.jpg",
+  "caption": "Kompleks Dayabumi",
+  "date_time_original": [
+    "2009-12-17T21:46:09+00:00"
+  ],
   "date_time_uploaded": "2009-12-24T07:37:38+00:00",
-  "original_height": 4752,
-  "original_width": 3162,
-  "original_size": 7557037,
+  "filename": "2009_12_17_134609.jpg",
+  "hidden": false,
+  "image_key": "ZXZZ6mk",
   "images": [
     "ZXZZ6mk-Ti.jpg",
     "ZXZZ6mk-Th.jpg",
@@ -25,7 +19,13 @@
     "ZXZZ6mk-X3.jpg",
     "ZXZZ6mk-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-12-17T21:46:09+00:00"
-  ]
+  "keywords": [
+    "Malaysia"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4752,
+  "original_size": 7557037,
+  "original_width": 3162,
+  "title": ""
 }

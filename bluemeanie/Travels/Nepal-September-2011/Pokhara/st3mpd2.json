@@ -1,17 +1,13 @@
 {
-  "image_key": "st3mpd2",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_4985.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2011-09-23T19:48:40+00:00"
+  ],
   "date_time_uploaded": "2014-01-11T06:41:15+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 9207951,
+  "filename": "IMG_4985.jpg",
+  "hidden": false,
+  "image_key": "st3mpd2",
   "images": [
     "st3mpd2-Ti.jpg",
     "st3mpd2-Th.jpg",
@@ -23,7 +19,11 @@
     "st3mpd2-X3.jpg",
     "st3mpd2-Original.jpg"
   ],
-  "date_time_original": [
-    "2011-09-23T19:48:40+00:00"
-  ]
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 9207951,
+  "original_width": 4752,
+  "title": ""
 }

@@ -1,12 +1,6 @@
 {
-  "node_id": "WWSvf",
-  "name": "Paddling down the Lower Zambezi",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Paddling-down-the-Lower",
-  "url_path": "/Travels/Africa-2013/Paddling-down-the-Lower",
   "date_added": "2014-09-28T23:29:32+00:00",
+  "description": "",
   "highlight_image_key": "gXtxvQH",
   "images": [
     "8Knw7vh",
@@ -88,5 +82,11 @@
     "xr7VjF2",
     "5xhgxfB",
     "XBsGfBx"
-  ]
+  ],
+  "keywords": [],
+  "name": "Paddling down the Lower Zambezi",
+  "node_id": "WWSvf",
+  "privacy": "Public",
+  "url_name": "Paddling-down-the-Lower",
+  "url_path": "/Travels/Africa-2013/Paddling-down-the-Lower"
 }

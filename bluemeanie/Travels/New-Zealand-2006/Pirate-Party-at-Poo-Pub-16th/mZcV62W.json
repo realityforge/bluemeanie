@@ -1,22 +1,13 @@
 {
-  "image_key": "mZcV62W",
-  "title": "",
-  "caption": "Sophie and Rowena",
-  "keywords": [
-    "sophie",
-    "rowena",
-    "new zealand",
-    "mahinapua hotel"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 032.jpg",
+  "caption": "Sophie and Rowena",
+  "date_time_original": [
+    "2006-06-17T04:24:05+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T01:34:11+00:00",
-  "original_height": 2816,
-  "original_width": 2112,
-  "original_size": 3311619,
+  "filename": "Stuart2 032.jpg",
+  "hidden": false,
+  "image_key": "mZcV62W",
   "images": [
     "mZcV62W-Ti.jpg",
     "mZcV62W-Th.jpg",
@@ -28,7 +19,16 @@
     "mZcV62W-X3.jpg",
     "mZcV62W-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T04:24:05+00:00"
-  ]
+  "keywords": [
+    "sophie",
+    "rowena",
+    "new zealand",
+    "mahinapua hotel"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2816,
+  "original_size": 3311619,
+  "original_width": 2112,
+  "title": ""
 }

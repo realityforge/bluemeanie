@@ -1,17 +1,10 @@
 {
-  "image_key": "p54c4fr",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-7571.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-10-06T23:23:52+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 11383664,
+  "filename": "Zambia-7571.jpg",
+  "hidden": false,
+  "image_key": "p54c4fr",
   "images": [
     "p54c4fr-Ti.jpg",
     "p54c4fr-Th.jpg",
@@ -22,5 +15,12 @@
     "p54c4fr-X2.jpg",
     "p54c4fr-X3.jpg",
     "p54c4fr-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 11383664,
+  "original_width": 4752,
+  "title": ""
 }

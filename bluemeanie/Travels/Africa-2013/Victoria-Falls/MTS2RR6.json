@@ -1,17 +1,10 @@
 {
-  "image_key": "MTS2RR6",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-7152.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-01-11T01:23:46+00:00",
-  "original_height": 2999,
-  "original_width": 4498,
-  "original_size": 7967727,
+  "filename": "Zambia-7152.jpg",
+  "hidden": false,
+  "image_key": "MTS2RR6",
   "images": [
     "MTS2RR6-Ti.jpg",
     "MTS2RR6-Th.jpg",
@@ -22,5 +15,12 @@
     "MTS2RR6-X2.jpg",
     "MTS2RR6-X3.jpg",
     "MTS2RR6-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2999,
+  "original_size": 7967727,
+  "original_width": 4498,
+  "title": ""
 }

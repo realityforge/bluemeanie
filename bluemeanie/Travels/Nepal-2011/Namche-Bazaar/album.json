@@ -1,12 +1,6 @@
 {
-  "node_id": "fbS2p",
-  "name": "Namche Bazaar",
-  "description": "Namche Bazaar is the main trading point for all the Khumbu area and sits at about  3,400 metres. \n\nWe passed through Namche on the way up the mountain and on the way down. There is pubs, pizza, coffee, tourist shops, gear shops and a market (on the right day). It was probably the most civilized area we found in the Himalaya's.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Namche-Bazaar",
-  "url_path": "/Travels/Nepal-2011/Namche-Bazaar",
   "date_added": "2011-06-21T03:15:45+00:00",
+  "description": "Namche Bazaar is the main trading point for all the Khumbu area and sits at about  3,400 metres. \n\nWe passed through Namche on the way up the mountain and on the way down. There is pubs, pizza, coffee, tourist shops, gear shops and a market (on the right day). It was probably the most civilized area we found in the Himalaya's.",
   "highlight_image_key": "PmVkMDb",
   "images": [
     "PmVkMDb",
@@ -34,5 +28,11 @@
     "Sq2h8Xq",
     "chFsFFM",
     "MPHbPrB"
-  ]
+  ],
+  "keywords": [],
+  "name": "Namche Bazaar",
+  "node_id": "fbS2p",
+  "privacy": "Public",
+  "url_name": "Namche-Bazaar",
+  "url_path": "/Travels/Nepal-2011/Namche-Bazaar"
 }

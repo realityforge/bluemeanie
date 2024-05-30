@@ -1,21 +1,13 @@
 {
-  "image_key": "LgKp7rP",
-  "title": "",
-  "caption": "Tasting several beers left Kim a little tipsy",
-  "keywords": [
-    "new zealand",
-    "greymouth",
-    "kim bagot"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_17_145716.JPG",
+  "caption": "Tasting several beers left Kim a little tipsy",
+  "date_time_original": [
+    "2009-11-17T22:57:16+00:00"
+  ],
   "date_time_uploaded": "2009-12-28T02:59:07+00:00",
-  "original_height": 4712,
-  "original_width": 3141,
-  "original_size": 8139543,
+  "filename": "2009_11_17_145716.JPG",
+  "hidden": false,
+  "image_key": "LgKp7rP",
   "images": [
     "LgKp7rP-Ti.jpg",
     "LgKp7rP-Th.jpg",
@@ -27,7 +19,15 @@
     "LgKp7rP-X3.jpg",
     "LgKp7rP-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-17T22:57:16+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "greymouth",
+    "kim bagot"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4712,
+  "original_size": 8139543,
+  "original_width": 3141,
+  "title": ""
 }

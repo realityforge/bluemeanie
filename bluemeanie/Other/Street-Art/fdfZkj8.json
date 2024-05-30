@@ -1,19 +1,13 @@
 {
-  "image_key": "fdfZkj8",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "fixme"
-  ],
-  "latitude": "-37.8262722222",
-  "longitude": "145.005291667",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Richmond 019.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-11-09T20:50:49+00:00"
+  ],
   "date_time_uploaded": "2006-11-12T08:07:40+00:00",
-  "original_height": 2112,
-  "original_width": 2583,
-  "original_size": 3318570,
+  "filename": "Richmond 019.jpg",
+  "hidden": false,
+  "image_key": "fdfZkj8",
   "images": [
     "fdfZkj8-Ti.jpg",
     "fdfZkj8-Th.jpg",
@@ -25,7 +19,13 @@
     "fdfZkj8-X3.jpg",
     "fdfZkj8-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-11-09T20:50:49+00:00"
-  ]
+  "keywords": [
+    "fixme"
+  ],
+  "latitude": "-37.8262722222",
+  "longitude": "145.005291667",
+  "original_height": 2112,
+  "original_size": 3318570,
+  "original_width": 2583,
+  "title": ""
 }

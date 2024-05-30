@@ -1,17 +1,10 @@
 {
-  "image_key": "MFCN8WC",
-  "title": "",
-  "caption": "Resting in a restaurant overlooking the stupa",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "untitled shoot-5059.jpg",
+  "caption": "Resting in a restaurant overlooking the stupa",
   "date_time_uploaded": "2014-02-10T06:11:29+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 8352726,
+  "filename": "untitled shoot-5059.jpg",
+  "hidden": false,
+  "image_key": "MFCN8WC",
   "images": [
     "MFCN8WC-Ti.jpg",
     "MFCN8WC-Th.jpg",
@@ -22,5 +15,12 @@
     "MFCN8WC-X2.jpg",
     "MFCN8WC-X3.jpg",
     "MFCN8WC-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 8352726,
+  "original_width": 4752,
+  "title": ""
 }

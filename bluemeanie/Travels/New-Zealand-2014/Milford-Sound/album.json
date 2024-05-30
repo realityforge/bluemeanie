@@ -1,12 +1,6 @@
 {
-  "node_id": "DZhgC9",
-  "name": "Milford Sound",
-  "description": "We caught a bus up from Te Anau and took a cruise out into the sound. Magnificient!",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Milford-Sound",
-  "url_path": "/Travels/New-Zealand-2014/Milford-Sound",
   "date_added": "2015-08-09T05:30:21+00:00",
+  "description": "We caught a bus up from Te Anau and took a cruise out into the sound. Magnificient!",
   "highlight_image_key": "3kXt9x3",
   "images": [
     "fCwC7jm",
@@ -53,5 +47,11 @@
     "QRLpQNf",
     "X9jV5Cn",
     "vFKP2L3"
-  ]
+  ],
+  "keywords": [],
+  "name": "Milford Sound",
+  "node_id": "DZhgC9",
+  "privacy": "Public",
+  "url_name": "Milford-Sound",
+  "url_path": "/Travels/New-Zealand-2014/Milford-Sound"
 }

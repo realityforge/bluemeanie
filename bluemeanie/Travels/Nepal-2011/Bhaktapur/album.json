@@ -1,12 +1,6 @@
 {
-  "node_id": "ggv8B",
-  "name": "Bhaktapur",
-  "description": "Bhaktapur is a world heritage site listed because of the art work and culture baked into the city. We spent a few days there to wind down from Kathmandu",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Bhaktapur",
-  "url_path": "/Travels/Nepal-2011/Bhaktapur",
   "date_added": "2011-06-23T09:49:14+00:00",
+  "description": "Bhaktapur is a world heritage site listed because of the art work and culture baked into the city. We spent a few days there to wind down from Kathmandu",
   "highlight_image_key": "Wg3s6FQ",
   "images": [
     "JBpP6Sg",
@@ -109,5 +103,11 @@
     "fLg96Qc",
     "W3R9jnz",
     "WCXvDLV"
-  ]
+  ],
+  "keywords": [],
+  "name": "Bhaktapur",
+  "node_id": "ggv8B",
+  "privacy": "Public",
+  "url_name": "Bhaktapur",
+  "url_path": "/Travels/Nepal-2011/Bhaktapur"
 }

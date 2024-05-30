@@ -1,12 +1,6 @@
 {
-  "node_id": "nVtgh",
-  "name": "Gokyo",
-  "description": "The highest place we slept was at the third lake of Gokyo but we climbed up Gokyo Ri (Ri = Hill) to reach the highest point of our whole trip. It was also the most beautiful views.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Gokyo",
-  "url_path": "/Travels/Nepal-2011/Gokyo",
   "date_added": "2011-06-23T09:54:29+00:00",
+  "description": "The highest place we slept was at the third lake of Gokyo but we climbed up Gokyo Ri (Ri = Hill) to reach the highest point of our whole trip. It was also the most beautiful views.",
   "highlight_image_key": "xsqFWLt",
   "images": [
     "tvq3ZGt",
@@ -109,5 +103,11 @@
     "NHXsJS3",
     "bpNpbKx",
     "7NgJhZ6"
-  ]
+  ],
+  "keywords": [],
+  "name": "Gokyo",
+  "node_id": "nVtgh",
+  "privacy": "Public",
+  "url_name": "Gokyo",
+  "url_path": "/Travels/Nepal-2011/Gokyo"
 }

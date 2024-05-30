@@ -1,20 +1,13 @@
 {
-  "image_key": "HPrGD34",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "nelson lakes national park"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart 015.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-15T16:40:14+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T22:46:10+00:00",
-  "original_height": 3456,
-  "original_width": 2304,
-  "original_size": 2477374,
+  "filename": "Stuart 015.jpg",
+  "hidden": false,
+  "image_key": "HPrGD34",
   "images": [
     "HPrGD34-Ti.jpg",
     "HPrGD34-Th.jpg",
@@ -26,7 +19,14 @@
     "HPrGD34-X3.jpg",
     "HPrGD34-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-15T16:40:14+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "nelson lakes national park"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3456,
+  "original_size": 2477374,
+  "original_width": 2304,
+  "title": ""
 }

@@ -1,17 +1,10 @@
 {
-  "image_key": "TxGP43d",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Zambia-7147.jpg",
+  "caption": "",
   "date_time_uploaded": "2014-01-11T01:30:35+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 9164643,
+  "filename": "Zambia-7147.jpg",
+  "hidden": false,
+  "image_key": "TxGP43d",
   "images": [
     "TxGP43d-Ti.jpg",
     "TxGP43d-Th.jpg",
@@ -22,5 +15,12 @@
     "TxGP43d-X2.jpg",
     "TxGP43d-X3.jpg",
     "TxGP43d-Original.jpg"
-  ]
+  ],
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 9164643,
+  "original_width": 4752,
+  "title": ""
 }

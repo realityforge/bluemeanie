@@ -1,12 +1,6 @@
 {
-  "node_id": "gJf4f",
-  "name": "Franz Joseph (18th of June)",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Franz-Joseph-18th-of-June",
-  "url_path": "/Travels/New-Zealand-2006/Franz-Joseph-18th-of-June",
   "date_added": "1970-01-01T00:00:00+00:00",
+  "description": "",
   "highlight_image_key": "84GQP6f",
   "images": [
     "bZm3wJx",
@@ -50,5 +44,11 @@
     "Xbq79vC",
     "cmPV3M5",
     "stMhjjX"
-  ]
+  ],
+  "keywords": [],
+  "name": "Franz Joseph (18th of June)",
+  "node_id": "gJf4f",
+  "privacy": "Public",
+  "url_name": "Franz-Joseph-18th-of-June",
+  "url_path": "/Travels/New-Zealand-2006/Franz-Joseph-18th-of-June"
 }

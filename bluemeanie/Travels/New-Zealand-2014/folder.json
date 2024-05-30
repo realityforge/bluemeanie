@@ -1,13 +1,4 @@
 {
-  "node_id": "sJkwh",
-  "name": "New Zealand 2014",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "New-Zealand-2014",
-  "url_path": "/Travels/New-Zealand-2014",
-  "date_added": "2014-09-27T23:26:13+00:00",
-  "highlight_image_key": "Z9PjRPd",
   "child_nodes": [
     "Milford-Sound",
     "Arthurs-Pass",
@@ -28,5 +19,14 @@
     "Lake-Mahinapua",
     "Lake-Ianthe",
     "Castle-Hill-and-Surrounds"
-  ]
+  ],
+  "date_added": "2014-09-27T23:26:13+00:00",
+  "description": "",
+  "highlight_image_key": "Z9PjRPd",
+  "keywords": [],
+  "name": "New Zealand 2014",
+  "node_id": "sJkwh",
+  "privacy": "Public",
+  "url_name": "New-Zealand-2014",
+  "url_path": "/Travels/New-Zealand-2014"
 }

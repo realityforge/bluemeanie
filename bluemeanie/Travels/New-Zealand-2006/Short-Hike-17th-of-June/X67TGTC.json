@@ -1,19 +1,13 @@
 {
-  "image_key": "X67TGTC",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart 064.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-17T19:40:51+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T11:38:48+00:00",
-  "original_height": 2304,
-  "original_width": 3456,
-  "original_size": 2926342,
+  "filename": "Stuart 064.jpg",
+  "hidden": false,
+  "image_key": "X67TGTC",
   "images": [
     "X67TGTC-Ti.jpg",
     "X67TGTC-Th.jpg",
@@ -25,7 +19,13 @@
     "X67TGTC-X3.jpg",
     "X67TGTC-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T19:40:51+00:00"
-  ]
+  "keywords": [
+    "new zealand"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2304,
+  "original_size": 2926342,
+  "original_width": 3456,
+  "title": ""
 }

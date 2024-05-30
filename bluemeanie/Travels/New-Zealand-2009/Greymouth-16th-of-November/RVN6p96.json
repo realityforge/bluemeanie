@@ -1,19 +1,13 @@
 {
-  "image_key": "RVN6p96",
-  "title": "",
-  "caption": "The West Coast beach on which our camp ground was located.",
-  "keywords": [
-    "new zealand"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_16_202220.JPG",
+  "caption": "The West Coast beach on which our camp ground was located.",
+  "date_time_original": [
+    "2009-11-17T04:22:20+00:00"
+  ],
   "date_time_uploaded": "2010-01-28T06:18:40+00:00",
-  "original_height": 4680,
-  "original_width": 3120,
-  "original_size": 9332330,
+  "filename": "2009_11_16_202220.JPG",
+  "hidden": false,
+  "image_key": "RVN6p96",
   "images": [
     "RVN6p96-Ti.jpg",
     "RVN6p96-Th.jpg",
@@ -25,7 +19,13 @@
     "RVN6p96-X3.jpg",
     "RVN6p96-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-17T04:22:20+00:00"
-  ]
+  "keywords": [
+    "new zealand"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4680,
+  "original_size": 9332330,
+  "original_width": 3120,
+  "title": ""
 }

@@ -1,22 +1,13 @@
 {
-  "image_key": "kP26CbK",
-  "title": "",
-  "caption": "Stuart and Sophie",
-  "keywords": [
-    "stuart holmes",
-    "sophie",
-    "new zealand",
-    "mahinapua hotel"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_3062.jpg",
+  "caption": "Stuart and Sophie",
+  "date_time_original": [
+    "2006-06-16T10:45:50+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T00:56:21+00:00",
-  "original_height": 2592,
-  "original_width": 1944,
-  "original_size": 2464575,
+  "filename": "IMG_3062.jpg",
+  "hidden": false,
+  "image_key": "kP26CbK",
   "images": [
     "kP26CbK-Ti.jpg",
     "kP26CbK-Th.jpg",
@@ -28,7 +19,16 @@
     "kP26CbK-X3.jpg",
     "kP26CbK-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-16T10:45:50+00:00"
-  ]
+  "keywords": [
+    "stuart holmes",
+    "sophie",
+    "new zealand",
+    "mahinapua hotel"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2592,
+  "original_size": 2464575,
+  "original_width": 1944,
+  "title": ""
 }

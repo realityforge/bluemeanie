@@ -1,12 +1,6 @@
 {
-  "node_id": "TVmcF",
-  "name": "Work Ideas",
-  "description": "",
-  "privacy": "Unlisted",
-  "keywords": [],
-  "url_name": "Work-Ideas",
-  "url_path": "/Other/Work-Ideas",
   "date_added": "2014-10-12T03:02:24+00:00",
+  "description": "",
   "highlight_image_key": "7f8ZSrM",
   "images": [
     "NgTLdMf",
@@ -23,5 +17,11 @@
     "nj3dX2Q",
     "L5zwv3g",
     "7f8ZSrM"
-  ]
+  ],
+  "keywords": [],
+  "name": "Work Ideas",
+  "node_id": "TVmcF",
+  "privacy": "Unlisted",
+  "url_name": "Work-Ideas",
+  "url_path": "/Other/Work-Ideas"
 }

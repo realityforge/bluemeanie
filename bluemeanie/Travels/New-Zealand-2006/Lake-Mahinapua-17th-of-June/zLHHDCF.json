@@ -1,20 +1,13 @@
 {
-  "image_key": "zLHHDCF",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "lake mahinapua"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 052.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-17T16:48:58+00:00"
+  ],
   "date_time_uploaded": "2006-06-28T23:05:06+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2104833,
+  "filename": "Stuart2 052.jpg",
+  "hidden": false,
+  "image_key": "zLHHDCF",
   "images": [
     "zLHHDCF-Ti.jpg",
     "zLHHDCF-Th.jpg",
@@ -26,7 +19,14 @@
     "zLHHDCF-X3.jpg",
     "zLHHDCF-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T16:48:58+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "lake mahinapua"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2112,
+  "original_size": 2104833,
+  "original_width": 2816,
+  "title": ""
 }

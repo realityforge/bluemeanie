@@ -1,19 +1,13 @@
 {
-  "image_key": "8B8sGzP",
-  "title": "",
-  "caption": "My PhD thesis!",
-  "keywords": [
-    "Thesis"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Thesis.jpg",
+  "caption": "My PhD thesis!",
+  "date_time_original": [
+    "2010-01-28T23:56:43+00:00"
+  ],
   "date_time_uploaded": "2010-01-29T22:44:52+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 12070248,
+  "filename": "Thesis.jpg",
+  "hidden": false,
+  "image_key": "8B8sGzP",
   "images": [
     "8B8sGzP-Ti.jpg",
     "8B8sGzP-Th.jpg",
@@ -25,7 +19,13 @@
     "8B8sGzP-X3.jpg",
     "8B8sGzP-Original.jpg"
   ],
-  "date_time_original": [
-    "2010-01-28T23:56:43+00:00"
-  ]
+  "keywords": [
+    "Thesis"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 12070248,
+  "original_width": 4752,
+  "title": ""
 }

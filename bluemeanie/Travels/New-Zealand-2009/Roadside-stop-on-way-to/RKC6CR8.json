@@ -1,20 +1,13 @@
 {
-  "image_key": "RKC6CR8",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "kim bagot"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_26_172907.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-11-27T01:29:07+00:00"
+  ],
   "date_time_uploaded": "2010-01-28T06:36:43+00:00",
-  "original_height": 4706,
-  "original_width": 3137,
-  "original_size": 6503278,
+  "filename": "2009_11_26_172907.JPG",
+  "hidden": false,
+  "image_key": "RKC6CR8",
   "images": [
     "RKC6CR8-Ti.jpg",
     "RKC6CR8-Th.jpg",
@@ -26,7 +19,14 @@
     "RKC6CR8-X3.jpg",
     "RKC6CR8-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-27T01:29:07+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "kim bagot"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4706,
+  "original_size": 6503278,
+  "original_width": 3137,
+  "title": ""
 }

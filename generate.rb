@@ -128,7 +128,7 @@ def load_album(path)
   data = JSON.load(IO.read(album_path))
 
   data['images'].each do |image_name|
-    puts "Loading Folder : #{path.gsub("#{DIR}/", '')}/#{image_name}"
+    # puts "Loading Image : #{path.gsub("#{DIR}/", '')}/#{image_name}"
     image_data = JSON.load(IO.read(File.join(path, "#{image_name}.json")))
     IMAGES[image_name] = Image.new(image_data['image_key'], path, image_data['title'],
                                    image_data['caption'], image_data['keywords'],

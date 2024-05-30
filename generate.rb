@@ -3,6 +3,7 @@ require 'json'
 require 'fileutils'
 
 DIR = File.expand_path(File.dirname(__FILE__))
+SITE_NAME='bluemeanie'
 
 
 FOLDERS = {}
@@ -146,4 +147,4 @@ def load_album(path)
                            highlight_image)
 end
 
-load_folder(File.join(DIR, 'bluemeanie'))
+root_folder = load_folder(File.join(DIR, SITE_NAME))

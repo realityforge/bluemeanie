@@ -43,7 +43,7 @@ class Image
   end
 
   def size_present?(size)
-    !!@images[size].nil?
+    !!@images[size]
   end
 
   def local_image_path(size)

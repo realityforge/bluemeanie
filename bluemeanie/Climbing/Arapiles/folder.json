@@ -1,13 +1,4 @@
 {
-  "node_id": "d3Mcz",
-  "name": "Mt Arapiles",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Arapiles",
-  "url_path": "/Climbing/Arapiles",
-  "date_added": "2014-02-23T04:40:35+00:00",
-  "highlight_image_key": "JxQBScB",
   "child_nodes": [
     "Mt-Arapiles-12th-of-February",
     "Mt-Arapiles-23rd-24th-of-May",
@@ -25,5 +16,14 @@
     "Mt-Arapiles-July-2011",
     "Mt-Arapiles-5th-6th-of-May",
     "Mt-Arapiles-Easter-2014"
-  ]
+  ],
+  "date_added": "2014-02-23T04:40:35+00:00",
+  "description": "",
+  "highlight_image_key": "JxQBScB",
+  "keywords": [],
+  "name": "Mt Arapiles",
+  "node_id": "d3Mcz",
+  "privacy": "Public",
+  "url_name": "Arapiles",
+  "url_path": "/Climbing/Arapiles"
 }

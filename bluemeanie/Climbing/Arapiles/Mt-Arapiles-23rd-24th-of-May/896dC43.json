@@ -1,19 +1,13 @@
 {
-  "image_key": "896dC43",
-  "title": "",
-  "caption": "The squeeze problem",
-  "keywords": [
-    "mt arapiles"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_0241.JPG",
+  "caption": "The squeeze problem",
+  "date_time_original": [
+    "2009-05-24T08:58:56+00:00"
+  ],
   "date_time_uploaded": "2009-05-29T13:41:04+00:00",
-  "original_height": 3456,
-  "original_width": 2592,
-  "original_size": 4802807,
+  "filename": "IMG_0241.JPG",
+  "hidden": false,
+  "image_key": "896dC43",
   "images": [
     "896dC43-Ti.jpg",
     "896dC43-Th.jpg",
@@ -25,7 +19,13 @@
     "896dC43-X3.jpg",
     "896dC43-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-05-24T08:58:56+00:00"
-  ]
+  "keywords": [
+    "mt arapiles"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3456,
+  "original_size": 4802807,
+  "original_width": 2592,
+  "title": ""
 }

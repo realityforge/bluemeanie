@@ -1,20 +1,13 @@
 {
-  "image_key": "VfqgcHZ",
-  "title": "",
-  "caption": "Rob hard at work",
-  "keywords": [
-    "rob mattson",
-    "la trobe university"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2.jpg",
+  "caption": "Rob hard at work",
+  "date_time_original": [
+    "2004-03-01T08:00:07+00:00"
+  ],
   "date_time_uploaded": "2006-06-28T02:45:41+00:00",
-  "original_height": 1704,
-  "original_width": 2272,
-  "original_size": 1155386,
+  "filename": "2.jpg",
+  "hidden": false,
+  "image_key": "VfqgcHZ",
   "images": [
     "VfqgcHZ-Ti.jpg",
     "VfqgcHZ-Th.jpg",
@@ -26,7 +19,14 @@
     "VfqgcHZ-X3.jpg",
     "VfqgcHZ-Original.jpg"
   ],
-  "date_time_original": [
-    "2004-03-01T08:00:07+00:00"
-  ]
+  "keywords": [
+    "rob mattson",
+    "la trobe university"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1704,
+  "original_size": 1155386,
+  "original_width": 2272,
+  "title": ""
 }

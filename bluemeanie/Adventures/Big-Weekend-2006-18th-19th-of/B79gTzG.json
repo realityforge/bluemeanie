@@ -1,20 +1,13 @@
 {
-  "image_key": "B79gTzG",
-  "title": "",
-  "caption": "Polish Pete's Self-portrait",
-  "keywords": [
-    "piotrek szczepanski",
-    "cathedral ranges"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "46.jpg",
+  "caption": "Polish Pete's Self-portrait",
+  "date_time_original": [
+    "2006-03-19T21:14:05+00:00"
+  ],
   "date_time_uploaded": "2006-06-28T01:55:16+00:00",
-  "original_height": 1600,
-  "original_width": 1200,
-  "original_size": 483281,
+  "filename": "46.jpg",
+  "hidden": false,
+  "image_key": "B79gTzG",
   "images": [
     "B79gTzG-Ti.jpg",
     "B79gTzG-Th.jpg",
@@ -26,7 +19,14 @@
     "B79gTzG-X3.jpg",
     "B79gTzG-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-03-19T21:14:05+00:00"
-  ]
+  "keywords": [
+    "piotrek szczepanski",
+    "cathedral ranges"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1600,
+  "original_size": 483281,
+  "original_width": 1200,
+  "title": ""
 }

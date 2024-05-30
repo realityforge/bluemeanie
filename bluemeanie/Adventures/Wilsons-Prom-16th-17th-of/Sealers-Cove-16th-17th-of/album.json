@@ -1,16 +1,6 @@
 {
-  "node_id": "T4jhD",
-  "name": "Sealers Cove (16th & 17th of September, 2006)",
-  "description": "We hiked across to Sealers Cove on Saturday, stayed overnight and hiked back on Sunday.",
-  "privacy": "Public",
-  "keywords": [
-    "lumc",
-    "sealers cove",
-    "wilsons prom"
-  ],
-  "url_name": "Sealers-Cove-16th-17th-of",
-  "url_path": "/Adventures/Wilsons-Prom-16th-17th-of/Sealers-Cove-16th-17th-of",
   "date_added": "1970-01-01T00:00:00+00:00",
+  "description": "We hiked across to Sealers Cove on Saturday, stayed overnight and hiked back on Sunday.",
   "highlight_image_key": "LdGrtKP",
   "images": [
     "LdGrtKP",
@@ -37,5 +27,15 @@
     "vqMpSRM",
     "Cz29KXJ",
     "6pBchL7"
-  ]
+  ],
+  "keywords": [
+    "lumc",
+    "sealers cove",
+    "wilsons prom"
+  ],
+  "name": "Sealers Cove (16th & 17th of September, 2006)",
+  "node_id": "T4jhD",
+  "privacy": "Public",
+  "url_name": "Sealers-Cove-16th-17th-of",
+  "url_path": "/Adventures/Wilsons-Prom-16th-17th-of/Sealers-Cove-16th-17th-of"
 }

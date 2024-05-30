@@ -1,12 +1,6 @@
 {
-  "node_id": "chLK3",
-  "name": "Three Peaks Long Weekend (9th, 10th & 11th of March, 2013)",
-  "description": "Early saturday morning we left Upper Howqua camp ground, headed up Helicopter Spur, past Picture Point and over Mt Magdala to settle at Hellfire Camp. Sunday saw us head up Howitt, across the Crosscut Saw, up and down Mt Buggery and over Mt Speculation to camp at  \"one of the finest campsites in the high country\". The last day saw us head back to the summit of Mt Buggery, bushbash down the side, along Queen Spur, over Stanley's Name Spur and back to the Upper Howqua campsite. A brilliant weekend.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Three-Peaks-Long-Weekend-2013",
-  "url_path": "/Hiking/Three-Peaks-Long-Weekend-2013",
   "date_added": "2013-03-13T04:18:08+00:00",
+  "description": "Early saturday morning we left Upper Howqua camp ground, headed up Helicopter Spur, past Picture Point and over Mt Magdala to settle at Hellfire Camp. Sunday saw us head up Howitt, across the Crosscut Saw, up and down Mt Buggery and over Mt Speculation to camp at  \"one of the finest campsites in the high country\". The last day saw us head back to the summit of Mt Buggery, bushbash down the side, along Queen Spur, over Stanley's Name Spur and back to the Upper Howqua campsite. A brilliant weekend.",
   "highlight_image_key": "BhQxR8t",
   "images": [
     "BhQxR8t",
@@ -102,5 +96,11 @@
     "65b2QP4",
     "s4JC4Wj",
     "mMhgH4f"
-  ]
+  ],
+  "keywords": [],
+  "name": "Three Peaks Long Weekend (9th, 10th & 11th of March, 2013)",
+  "node_id": "chLK3",
+  "privacy": "Public",
+  "url_name": "Three-Peaks-Long-Weekend-2013",
+  "url_path": "/Hiking/Three-Peaks-Long-Weekend-2013"
 }

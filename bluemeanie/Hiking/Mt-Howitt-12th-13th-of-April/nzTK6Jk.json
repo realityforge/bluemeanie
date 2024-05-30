@@ -1,22 +1,13 @@
 {
-  "image_key": "nzTK6Jk",
-  "title": "",
-  "caption": "Bucky takes a swim in Macallister Springs",
-  "keywords": [
-    "bucky",
-    "mt howitt",
-    "vallejo gantner hut",
-    "Macallister Springs"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "279121443.jpg",
+  "caption": "Bucky takes a swim in Macallister Springs",
+  "date_time_original": [
+    "2008-04-13T17:56:50+00:00"
+  ],
   "date_time_uploaded": "2008-05-05T01:15:18+00:00",
-  "original_height": 1200,
-  "original_width": 1600,
-  "original_size": 436898,
+  "filename": "279121443.jpg",
+  "hidden": false,
+  "image_key": "nzTK6Jk",
   "images": [
     "nzTK6Jk-Ti.jpg",
     "nzTK6Jk-Th.jpg",
@@ -28,7 +19,16 @@
     "nzTK6Jk-X3.jpg",
     "nzTK6Jk-Original.jpg"
   ],
-  "date_time_original": [
-    "2008-04-13T17:56:50+00:00"
-  ]
+  "keywords": [
+    "bucky",
+    "mt howitt",
+    "vallejo gantner hut",
+    "Macallister Springs"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1200,
+  "original_size": 436898,
+  "original_width": 1600,
+  "title": ""
 }

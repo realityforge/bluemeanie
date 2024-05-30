@@ -1,14 +1,6 @@
 {
-  "node_id": "ssp33",
-  "name": "Big Weekend 2006 (18th & 19th of March, 2006)",
-  "description": "Pictures from the La Trobe University Mountaineering Club (LUMC) Big Weekend, which is an introductory weekend for all the new members. The organizers take a bunch of newbies out to try their hand at activities such as; rock climbing, bush walking, mountain bike riding, kayaking and rafting.",
-  "privacy": "Public",
-  "keywords": [
-    "lumc"
-  ],
-  "url_name": "Big-Weekend-2006-18th-19th-of",
-  "url_path": "/Adventures/Big-Weekend-2006-18th-19th-of",
   "date_added": "1970-01-01T00:00:00+00:00",
+  "description": "Pictures from the La Trobe University Mountaineering Club (LUMC) Big Weekend, which is an introductory weekend for all the new members. The organizers take a bunch of newbies out to try their hand at activities such as; rock climbing, bush walking, mountain bike riding, kayaking and rafting.",
   "highlight_image_key": "bwDZGWm",
   "images": [
     "ZNXrcKg",
@@ -34,5 +26,13 @@
     "B79gTzG",
     "JXWL6z9",
     "HRtm73r"
-  ]
+  ],
+  "keywords": [
+    "lumc"
+  ],
+  "name": "Big Weekend 2006 (18th & 19th of March, 2006)",
+  "node_id": "ssp33",
+  "privacy": "Public",
+  "url_name": "Big-Weekend-2006-18th-19th-of",
+  "url_path": "/Adventures/Big-Weekend-2006-18th-19th-of"
 }

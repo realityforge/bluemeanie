@@ -1,21 +1,13 @@
 {
-  "image_key": "F5BMWKS",
-  "title": "",
-  "caption": "Aaron sitting about, taking in the ambiance of the cave",
-  "keywords": [
-    "labertouche",
-    "caving",
-    "aaron mcclelland"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "295448054.JPG",
+  "caption": "Aaron sitting about, taking in the ambiance of the cave",
+  "date_time_original": [
+    "2008-05-10T21:32:33+00:00"
+  ],
   "date_time_uploaded": "2008-05-17T05:33:32+00:00",
-  "original_height": 2736,
-  "original_width": 3648,
-  "original_size": 2346175,
+  "filename": "295448054.JPG",
+  "hidden": false,
+  "image_key": "F5BMWKS",
   "images": [
     "F5BMWKS-Ti.jpg",
     "F5BMWKS-Th.jpg",
@@ -27,7 +19,15 @@
     "F5BMWKS-X3.jpg",
     "F5BMWKS-Original.jpg"
   ],
-  "date_time_original": [
-    "2008-05-10T21:32:33+00:00"
-  ]
+  "keywords": [
+    "labertouche",
+    "caving",
+    "aaron mcclelland"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2736,
+  "original_size": 2346175,
+  "original_width": 3648,
+  "title": ""
 }

@@ -1,15 +1,6 @@
 {
-  "node_id": "BfmLW",
-  "name": "Wombat State Forest (3rd & 4th of May, 2008)",
-  "description": "First \"real\" mountain biking trip",
-  "privacy": "Public",
-  "keywords": [
-    "biking",
-    "wombat state forest"
-  ],
-  "url_name": "Wombat-State-Forest-3rd-4th-of",
-  "url_path": "/Mountain-Biking/Wombat-State-Forest-3rd-4th-of",
   "date_added": "2008-05-06T02:09:39+00:00",
+  "description": "First \"real\" mountain biking trip",
   "highlight_image_key": "zxQnjZZ",
   "images": [
     "SSvdXnf",
@@ -38,5 +29,14 @@
     "tpLQLrj",
     "4pvWGXL",
     "Bkv8xQD"
-  ]
+  ],
+  "keywords": [
+    "biking",
+    "wombat state forest"
+  ],
+  "name": "Wombat State Forest (3rd & 4th of May, 2008)",
+  "node_id": "BfmLW",
+  "privacy": "Public",
+  "url_name": "Wombat-State-Forest-3rd-4th-of",
+  "url_path": "/Mountain-Biking/Wombat-State-Forest-3rd-4th-of"
 }

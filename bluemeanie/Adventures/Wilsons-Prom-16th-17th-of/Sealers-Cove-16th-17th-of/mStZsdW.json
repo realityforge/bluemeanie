@@ -1,7 +1,24 @@
 {
-  "image_key": "mStZsdW",
-  "title": "",
+  "altitude": 0,
   "caption": "Rosie relaxing on the big rock.",
+  "date_time_original": [
+    "2006-09-15T17:36:04+00:00"
+  ],
+  "date_time_uploaded": "2006-10-07T02:42:33+00:00",
+  "filename": "IMGP2408.JPG",
+  "hidden": false,
+  "image_key": "mStZsdW",
+  "images": [
+    "mStZsdW-Ti.jpg",
+    "mStZsdW-Th.jpg",
+    "mStZsdW-S.jpg",
+    "mStZsdW-M.jpg",
+    "mStZsdW-L.jpg",
+    "mStZsdW-XL.jpg",
+    "mStZsdW-X2.jpg",
+    "mStZsdW-X3.jpg",
+    "mStZsdW-Original.jpg"
+  ],
   "keywords": [
     "wilsons prom",
     "sealers cove",
@@ -9,12 +26,8 @@
   ],
   "latitude": "-39.021432",
   "longitude": "146.443916",
-  "altitude": 0,
-  "hidden": false,
-  "filename": "IMGP2408.JPG",
-  "date_time_original": "2006-09-15T17:36:04+00:00",
-  "date_time_uploaded": "2006-10-07T02:42:33+00:00",
   "original_height": 1920,
+  "original_size": 2631708,
   "original_width": 2560,
-  "original_size": 2631708
+  "title": ""
 }

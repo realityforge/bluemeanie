@@ -1,19 +1,13 @@
 {
-  "image_key": "vpfdsCC",
-  "title": "",
-  "caption": "Our resting place for the weekend",
-  "keywords": [
-    "Araps Base Camp"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "RIMG0028.JPG",
+  "caption": "Our resting place for the weekend",
+  "date_time_original": [
+    "2009-05-23T18:53:38+00:00"
+  ],
   "date_time_uploaded": "2009-05-29T13:19:11+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2307410,
+  "filename": "RIMG0028.JPG",
+  "hidden": false,
+  "image_key": "vpfdsCC",
   "images": [
     "vpfdsCC-Ti.jpg",
     "vpfdsCC-Th.jpg",
@@ -25,7 +19,13 @@
     "vpfdsCC-X3.jpg",
     "vpfdsCC-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-05-23T18:53:38+00:00"
-  ]
+  "keywords": [
+    "Araps Base Camp"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2112,
+  "original_size": 2307410,
+  "original_width": 2816,
+  "title": ""
 }

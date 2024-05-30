@@ -1,17 +1,13 @@
 {
-  "image_key": "tpLQLrj",
-  "title": "",
-  "caption": "",
-  "keywords": [],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "WombatState24.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2008-05-04T20:53:44+00:00"
+  ],
   "date_time_uploaded": "2008-05-06T02:13:54+00:00",
-  "original_height": 2816,
-  "original_width": 2112,
-  "original_size": 2649620,
+  "filename": "WombatState24.JPG",
+  "hidden": false,
+  "image_key": "tpLQLrj",
   "images": [
     "tpLQLrj-Ti.jpg",
     "tpLQLrj-Th.jpg",
@@ -23,7 +19,11 @@
     "tpLQLrj-X3.jpg",
     "tpLQLrj-Original.jpg"
   ],
-  "date_time_original": [
-    "2008-05-04T20:53:44+00:00"
-  ]
+  "keywords": [],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2816,
+  "original_size": 2649620,
+  "original_width": 2112,
+  "title": ""
 }

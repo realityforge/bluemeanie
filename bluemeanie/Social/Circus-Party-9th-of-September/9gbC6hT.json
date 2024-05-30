@@ -1,20 +1,13 @@
 {
-  "image_key": "9gbC6hT",
-  "title": "",
-  "caption": "Up the stairs and through the cubby house.",
-  "keywords": [
-    "party",
-    "church st"
-  ],
-  "latitude": "-37.810221",
-  "longitude": "145.000666",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Party 009.jpg",
+  "caption": "Up the stairs and through the cubby house.",
+  "date_time_original": [
+    "2006-09-09T23:45:33+00:00"
+  ],
   "date_time_uploaded": "2006-09-13T01:13:11+00:00",
-  "original_height": 1280,
-  "original_width": 960,
-  "original_size": 711699,
+  "filename": "Party 009.jpg",
+  "hidden": false,
+  "image_key": "9gbC6hT",
   "images": [
     "9gbC6hT-Ti.jpg",
     "9gbC6hT-Th.jpg",
@@ -26,7 +19,14 @@
     "9gbC6hT-X3.jpg",
     "9gbC6hT-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-09-09T23:45:33+00:00"
-  ]
+  "keywords": [
+    "party",
+    "church st"
+  ],
+  "latitude": "-37.810221",
+  "longitude": "145.000666",
+  "original_height": 1280,
+  "original_size": 711699,
+  "original_width": 960,
+  "title": ""
 }

@@ -1,20 +1,13 @@
 {
-  "image_key": "B3mVmbc",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "greenstone and caples track"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_28_125144.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-11-28T20:51:44+00:00"
+  ],
   "date_time_uploaded": "2009-12-30T06:23:45+00:00",
-  "original_height": 3100,
-  "original_width": 4601,
-  "original_size": 8739384,
+  "filename": "2009_11_28_125144.JPG",
+  "hidden": false,
+  "image_key": "B3mVmbc",
   "images": [
     "B3mVmbc-Ti.jpg",
     "B3mVmbc-Th.jpg",
@@ -26,7 +19,14 @@
     "B3mVmbc-X3.jpg",
     "B3mVmbc-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-28T20:51:44+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "greenstone and caples track"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3100,
+  "original_size": 8739384,
+  "original_width": 4601,
+  "title": ""
 }

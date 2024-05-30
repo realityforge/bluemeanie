@@ -1,20 +1,13 @@
 {
-  "image_key": "xfzFdT2",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "tapawera"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_12_10_105308.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-12-10T18:53:08+00:00"
+  ],
   "date_time_uploaded": "2009-12-28T16:12:31+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 9135245,
+  "filename": "2009_12_10_105308.JPG",
+  "hidden": false,
+  "image_key": "xfzFdT2",
   "images": [
     "xfzFdT2-Ti.jpg",
     "xfzFdT2-Th.jpg",
@@ -26,7 +19,14 @@
     "xfzFdT2-X3.jpg",
     "xfzFdT2-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-12-10T18:53:08+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "tapawera"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 9135245,
+  "original_width": 4752,
+  "title": ""
 }

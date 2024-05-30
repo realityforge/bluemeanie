@@ -1,20 +1,13 @@
 {
-  "image_key": "rmG5zh6",
-  "title": "",
-  "caption": "A puffy bird hiding from the rain",
-  "keywords": [
-    "new zealand",
-    "Dunedin"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_25_160635.JPG",
+  "caption": "A puffy bird hiding from the rain",
+  "date_time_original": [
+    "2009-11-26T00:06:35+00:00"
+  ],
   "date_time_uploaded": "2010-01-28T06:34:48+00:00",
-  "original_height": 3141,
-  "original_width": 4712,
-  "original_size": 8138293,
+  "filename": "2009_11_25_160635.JPG",
+  "hidden": false,
+  "image_key": "rmG5zh6",
   "images": [
     "rmG5zh6-Ti.jpg",
     "rmG5zh6-Th.jpg",
@@ -26,7 +19,14 @@
     "rmG5zh6-X3.jpg",
     "rmG5zh6-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-26T00:06:35+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "Dunedin"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3141,
+  "original_size": 8138293,
+  "original_width": 4712,
+  "title": ""
 }

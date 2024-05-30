@@ -1,12 +1,6 @@
 {
-  "node_id": "B8Wwt",
-  "name": "Christmas at Curtin (December, 2012)",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Christmas-at-Curtin-December",
-  "url_path": "/Social/Christmas-at-Curtin-December",
   "date_added": "2013-03-02T00:01:27+00:00",
+  "description": "",
   "highlight_image_key": "m7frJzk",
   "images": [
     "PHs4kFq",
@@ -17,5 +11,11 @@
     "M62ZLKc",
     "Mh7FKB6",
     "m7frJzk"
-  ]
+  ],
+  "keywords": [],
+  "name": "Christmas at Curtin (December, 2012)",
+  "node_id": "B8Wwt",
+  "privacy": "Public",
+  "url_name": "Christmas-at-Curtin-December",
+  "url_path": "/Social/Christmas-at-Curtin-December"
 }

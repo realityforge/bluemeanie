@@ -1,21 +1,13 @@
 {
-  "image_key": "P2CBJmh",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "greymouth",
-    "kim bagot"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_17_104642.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-11-17T18:46:42+00:00"
+  ],
   "date_time_uploaded": "2009-12-28T06:28:06+00:00",
-  "original_height": 4694,
-  "original_width": 3129,
-  "original_size": 7703346,
+  "filename": "2009_11_17_104642.JPG",
+  "hidden": false,
+  "image_key": "P2CBJmh",
   "images": [
     "P2CBJmh-Ti.jpg",
     "P2CBJmh-Th.jpg",
@@ -27,7 +19,15 @@
     "P2CBJmh-X3.jpg",
     "P2CBJmh-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-17T18:46:42+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "greymouth",
+    "kim bagot"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4694,
+  "original_size": 7703346,
+  "original_width": 3129,
+  "title": ""
 }

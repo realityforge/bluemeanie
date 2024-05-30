@@ -1,20 +1,13 @@
 {
-  "image_key": "fsP4P7J",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "Ahuriri Bridge"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_12_01_202013.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-12-02T04:20:13+00:00"
+  ],
   "date_time_uploaded": "2010-01-28T06:38:56+00:00",
-  "original_height": 3128,
-  "original_width": 4692,
-  "original_size": 7602402,
+  "filename": "2009_12_01_202013.JPG",
+  "hidden": false,
+  "image_key": "fsP4P7J",
   "images": [
     "fsP4P7J-Ti.jpg",
     "fsP4P7J-Th.jpg",
@@ -26,7 +19,14 @@
     "fsP4P7J-X3.jpg",
     "fsP4P7J-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-12-02T04:20:13+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "Ahuriri Bridge"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3128,
+  "original_size": 7602402,
+  "original_width": 4692,
+  "title": ""
 }

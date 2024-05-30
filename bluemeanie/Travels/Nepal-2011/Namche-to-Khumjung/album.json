@@ -1,12 +1,6 @@
 {
-  "node_id": "srXgq",
-  "name": "Namche to Khumjung",
-  "description": "There is many ways to get to Khumjung from Namche; We decided to go the hard way over the hill rather than round. The advantage was that we got to see Syangboche - the highest airport in the world (single engine only) and the Everest view - the highest hotel in the world. Many Japanese tourists have the \"Himalaya\" experience by flying into Syangboche, walking to the Everest view and then staying there a few days. Most (85%) end up with high altitude sickness even when they have pressurized rooms over night.\n\nKhumjung is the home town of our guide and seems to be one of the richer, more educated areas in this part of the world",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Namche-to-Khumjung",
-  "url_path": "/Travels/Nepal-2011/Namche-to-Khumjung",
   "date_added": "2011-06-23T10:24:49+00:00",
+  "description": "There is many ways to get to Khumjung from Namche; We decided to go the hard way over the hill rather than round. The advantage was that we got to see Syangboche - the highest airport in the world (single engine only) and the Everest view - the highest hotel in the world. Many Japanese tourists have the \"Himalaya\" experience by flying into Syangboche, walking to the Everest view and then staying there a few days. Most (85%) end up with high altitude sickness even when they have pressurized rooms over night.\n\nKhumjung is the home town of our guide and seems to be one of the richer, more educated areas in this part of the world",
   "highlight_image_key": "nrcKzFq",
   "images": [
     "nrcKzFq",
@@ -35,5 +29,11 @@
     "6WvfRL5",
     "szt9MpF",
     "g5ZWT3R"
-  ]
+  ],
+  "keywords": [],
+  "name": "Namche to Khumjung",
+  "node_id": "srXgq",
+  "privacy": "Public",
+  "url_name": "Namche-to-Khumjung",
+  "url_path": "/Travels/Nepal-2011/Namche-to-Khumjung"
 }

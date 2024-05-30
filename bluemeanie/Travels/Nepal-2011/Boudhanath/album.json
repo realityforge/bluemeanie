@@ -1,12 +1,6 @@
 {
-  "node_id": "3dcGB",
-  "name": "Boudhanath",
-  "description": "Boudhanath is a huge stupa that sees hundreds of people walking around it each night. We sat in a balcony, ate dinner ad watched the crowds.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Boudhanath",
-  "url_path": "/Travels/Nepal-2011/Boudhanath",
   "date_added": "2011-06-21T05:16:48+00:00",
+  "description": "Boudhanath is a huge stupa that sees hundreds of people walking around it each night. We sat in a balcony, ate dinner ad watched the crowds.",
   "highlight_image_key": "5qwdDVz",
   "images": [
     "DX7VZZj",
@@ -19,5 +13,11 @@
     "rLs6QfX",
     "mhZCtF4",
     "dGVVZhc"
-  ]
+  ],
+  "keywords": [],
+  "name": "Boudhanath",
+  "node_id": "3dcGB",
+  "privacy": "Public",
+  "url_name": "Boudhanath",
+  "url_path": "/Travels/Nepal-2011/Boudhanath"
 }

@@ -1,12 +1,6 @@
 {
-  "node_id": "RTcFH",
-  "name": "Machermo to Gokyo and Back to Dhole",
-  "description": "Machermo is where we first started to experience a sprinkling of snow. It was amazing how a dusting of snow made everything look so much prettier. We also were given a high altitude talk at the medical center in Machermo. \n\nThe walk up to Gokyo passed some amazing lakes.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Machermo-to-Gokyo-and-Back",
-  "url_path": "/Travels/Nepal-2011/Machermo-to-Gokyo-and-Back",
   "date_added": "2011-06-23T10:26:14+00:00",
+  "description": "Machermo is where we first started to experience a sprinkling of snow. It was amazing how a dusting of snow made everything look so much prettier. We also were given a high altitude talk at the medical center in Machermo. \n\nThe walk up to Gokyo passed some amazing lakes.",
   "highlight_image_key": "P63Jc7C",
   "images": [
     "gtqGkKw",
@@ -107,5 +101,11 @@
     "Dv2tb3z",
     "R6HrnXG",
     "bzjX9Fm"
-  ]
+  ],
+  "keywords": [],
+  "name": "Machermo to Gokyo and Back to Dhole",
+  "node_id": "RTcFH",
+  "privacy": "Public",
+  "url_name": "Machermo-to-Gokyo-and-Back",
+  "url_path": "/Travels/Nepal-2011/Machermo-to-Gokyo-and-Back"
 }

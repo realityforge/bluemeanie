@@ -1,12 +1,6 @@
 {
-  "node_id": "JnGRg",
-  "name": "Yaks, Naks, Goats and Donkeys",
-  "description": "The high country is filled with Yaks, Naks (female Yaks) and all sorts of cow/yak cross-breeds. Lower down there is also donkeys, goats and the occasional horse.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Mountain-Goats",
-  "url_path": "/Travels/Nepal-2011/Mountain-Goats",
   "date_added": "2011-06-23T10:36:44+00:00",
+  "description": "The high country is filled with Yaks, Naks (female Yaks) and all sorts of cow/yak cross-breeds. Lower down there is also donkeys, goats and the occasional horse.",
   "highlight_image_key": "pMZSxPn",
   "images": [
     "d7D4vtG",
@@ -36,5 +30,11 @@
     "TDwf9pG",
     "kMHcDZM",
     "fHwz4QP"
-  ]
+  ],
+  "keywords": [],
+  "name": "Yaks, Naks, Goats and Donkeys",
+  "node_id": "JnGRg",
+  "privacy": "Public",
+  "url_name": "Mountain-Goats",
+  "url_path": "/Travels/Nepal-2011/Mountain-Goats"
 }

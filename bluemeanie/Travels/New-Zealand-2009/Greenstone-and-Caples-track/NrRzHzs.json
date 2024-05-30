@@ -1,21 +1,13 @@
 {
-  "image_key": "NrRzHzs",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "kim bagot",
-    "greenstone and caples track"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_29_153504.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-11-29T23:35:04+00:00"
+  ],
   "date_time_uploaded": "2009-12-30T13:39:37+00:00",
-  "original_height": 4890,
-  "original_width": 3260,
-  "original_size": 7671185,
+  "filename": "2009_11_29_153504.JPG",
+  "hidden": false,
+  "image_key": "NrRzHzs",
   "images": [
     "NrRzHzs-Ti.jpg",
     "NrRzHzs-Th.jpg",
@@ -27,7 +19,15 @@
     "NrRzHzs-X3.jpg",
     "NrRzHzs-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-29T23:35:04+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "kim bagot",
+    "greenstone and caples track"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4890,
+  "original_size": 7671185,
+  "original_width": 3260,
+  "title": ""
 }

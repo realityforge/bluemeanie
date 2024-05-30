@@ -1,20 +1,13 @@
 {
-  "image_key": "tGGPLBQ",
-  "title": "",
-  "caption": "an image of the pier the next day. Water? forest? mountains? yes! yes! yes!",
-  "keywords": [
-    "new zealand",
-    "Lake Mahinapua"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_18_115530.JPG",
+  "caption": "an image of the pier the next day. Water? forest? mountains? yes! yes! yes!",
+  "date_time_original": [
+    "2009-11-18T19:55:30+00:00"
+  ],
   "date_time_uploaded": "2010-01-28T06:24:17+00:00",
-  "original_height": 3134,
-  "original_width": 4701,
-  "original_size": 8941257,
+  "filename": "2009_11_18_115530.JPG",
+  "hidden": false,
+  "image_key": "tGGPLBQ",
   "images": [
     "tGGPLBQ-Ti.jpg",
     "tGGPLBQ-Th.jpg",
@@ -26,7 +19,14 @@
     "tGGPLBQ-X3.jpg",
     "tGGPLBQ-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-18T19:55:30+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "Lake Mahinapua"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3134,
+  "original_size": 8941257,
+  "original_width": 4701,
+  "title": ""
 }

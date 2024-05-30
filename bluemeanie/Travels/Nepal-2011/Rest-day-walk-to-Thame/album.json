@@ -1,12 +1,6 @@
 {
-  "node_id": "HSh9x",
-  "name": "Rest day walk to Thame",
-  "description": "Our \"rest\" day involved walking out towards Thame and back. It was meant to help us acclimatize and to have a rest - turned out to be one of the toughest days we had. We ended up turning back just after Samde and by the time we got back to Namche I had a touch of the altitude sickness.\n\nOne of the more interesting places we stopped is the temple at Thamo that the nuns are building. It has taken years and looks like taking years yet. Tibetan monks travel across to continue painting it every year.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Rest-day-walk-to-Thame",
-  "url_path": "/Travels/Nepal-2011/Rest-day-walk-to-Thame",
   "date_added": "2011-06-23T10:10:38+00:00",
+  "description": "Our \"rest\" day involved walking out towards Thame and back. It was meant to help us acclimatize and to have a rest - turned out to be one of the toughest days we had. We ended up turning back just after Samde and by the time we got back to Namche I had a touch of the altitude sickness.\n\nOne of the more interesting places we stopped is the temple at Thamo that the nuns are building. It has taken years and looks like taking years yet. Tibetan monks travel across to continue painting it every year.",
   "highlight_image_key": "KFLwMC2",
   "images": [
     "bWD5ZWz",
@@ -41,5 +35,11 @@
     "9GZ3Td3",
     "W43bqFb",
     "25GXMgM"
-  ]
+  ],
+  "keywords": [],
+  "name": "Rest day walk to Thame",
+  "node_id": "HSh9x",
+  "privacy": "Public",
+  "url_name": "Rest-day-walk-to-Thame",
+  "url_path": "/Travels/Nepal-2011/Rest-day-walk-to-Thame"
 }

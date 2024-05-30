@@ -1,19 +1,13 @@
 {
-  "image_key": "wBHLfNq",
-  "title": "",
-  "caption": "Moose outside the Bushman\u0092s Centre (between Lake Mahinapua and Franz Josef)",
-  "keywords": [
-    "new zealand"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 056.jpg",
+  "caption": "Moose outside the Bushman\u0092s Centre (between Lake Mahinapua and Franz Josef)",
+  "date_time_original": [
+    "2006-06-17T17:37:38+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T08:05:36+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2515619,
+  "filename": "Stuart2 056.jpg",
+  "hidden": false,
+  "image_key": "wBHLfNq",
   "images": [
     "wBHLfNq-Ti.jpg",
     "wBHLfNq-Th.jpg",
@@ -25,7 +19,13 @@
     "wBHLfNq-X3.jpg",
     "wBHLfNq-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T17:37:38+00:00"
-  ]
+  "keywords": [
+    "new zealand"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2112,
+  "original_size": 2515619,
+  "original_width": 2816,
+  "title": ""
 }

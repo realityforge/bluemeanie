@@ -1,12 +1,6 @@
 {
-  "node_id": "DTFgG",
-  "name": "Tangboche",
-  "description": "Tangboche is the major religious center for this region of the Himalaya. The temple as been rebuilt many times and is a testament to the will of the locals. Rob and Ross played soccer with the local monks for a bit but had to retire early - they were downhill and not yet acclimatized. A good laugh for the monks me thinks.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "Tangboche",
-  "url_path": "/Travels/Nepal-2011/Tangboche",
   "date_added": "2011-06-23T10:27:56+00:00",
+  "description": "Tangboche is the major religious center for this region of the Himalaya. The temple as been rebuilt many times and is a testament to the will of the locals. Rob and Ross played soccer with the local monks for a bit but had to retire early - they were downhill and not yet acclimatized. A good laugh for the monks me thinks.",
   "highlight_image_key": "NZV3tsP",
   "images": [
     "sG6N34C",
@@ -55,5 +49,11 @@
     "HsvKmvK",
     "Jk4KJc9",
     "Vk542Sq"
-  ]
+  ],
+  "keywords": [],
+  "name": "Tangboche",
+  "node_id": "DTFgG",
+  "privacy": "Public",
+  "url_name": "Tangboche",
+  "url_path": "/Travels/Nepal-2011/Tangboche"
 }

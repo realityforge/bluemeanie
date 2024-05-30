@@ -1,20 +1,13 @@
 {
-  "image_key": "HMh3wDM",
-  "title": "",
-  "caption": "A rainbow over the Franz Josef town",
-  "keywords": [
-    "new zealand",
-    "franz joseph"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart 067.jpg",
+  "caption": "A rainbow over the Franz Josef town",
+  "date_time_original": [
+    "2006-06-17T21:44:44+00:00"
+  ],
   "date_time_uploaded": "2006-06-30T07:21:58+00:00",
-  "original_height": 2304,
-  "original_width": 3456,
-  "original_size": 2528802,
+  "filename": "Stuart 067.jpg",
+  "hidden": false,
+  "image_key": "HMh3wDM",
   "images": [
     "HMh3wDM-Ti.jpg",
     "HMh3wDM-Th.jpg",
@@ -26,7 +19,14 @@
     "HMh3wDM-X3.jpg",
     "HMh3wDM-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T21:44:44+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "franz joseph"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2304,
+  "original_size": 2528802,
+  "original_width": 3456,
+  "title": ""
 }

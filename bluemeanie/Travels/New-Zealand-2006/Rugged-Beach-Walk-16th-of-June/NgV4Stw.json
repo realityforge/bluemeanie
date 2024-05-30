@@ -1,19 +1,13 @@
 {
-  "image_key": "NgV4Stw",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand"
-  ],
-  "latitude": "-41.76375",
-  "longitude": "171.456854",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_3033.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-16T00:17:11+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T07:50:59+00:00",
-  "original_height": 2592,
-  "original_width": 1944,
-  "original_size": 926114,
+  "filename": "IMG_3033.jpg",
+  "hidden": false,
+  "image_key": "NgV4Stw",
   "images": [
     "NgV4Stw-Ti.jpg",
     "NgV4Stw-Th.jpg",
@@ -25,7 +19,13 @@
     "NgV4Stw-X3.jpg",
     "NgV4Stw-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-16T00:17:11+00:00"
-  ]
+  "keywords": [
+    "new zealand"
+  ],
+  "latitude": "-41.76375",
+  "longitude": "171.456854",
+  "original_height": 2592,
+  "original_size": 926114,
+  "original_width": 1944,
+  "title": ""
 }

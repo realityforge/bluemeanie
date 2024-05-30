@@ -1,20 +1,13 @@
 {
-  "image_key": "xBCCvvq",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "franz joseph"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 066.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-18T20:29:47+00:00"
+  ],
   "date_time_uploaded": "2006-06-30T07:34:26+00:00",
-  "original_height": 2816,
-  "original_width": 2112,
-  "original_size": 2419497,
+  "filename": "Stuart2 066.jpg",
+  "hidden": false,
+  "image_key": "xBCCvvq",
   "images": [
     "xBCCvvq-Ti.jpg",
     "xBCCvvq-Th.jpg",
@@ -26,7 +19,14 @@
     "xBCCvvq-X3.jpg",
     "xBCCvvq-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-18T20:29:47+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "franz joseph"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2816,
+  "original_size": 2419497,
+  "original_width": 2112,
+  "title": ""
 }

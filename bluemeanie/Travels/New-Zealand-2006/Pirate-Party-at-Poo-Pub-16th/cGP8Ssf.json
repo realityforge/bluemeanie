@@ -1,22 +1,13 @@
 {
-  "image_key": "cGP8Ssf",
-  "title": "",
-  "caption": "Sophie and Bec",
-  "keywords": [
-    "sophie",
-    "becky stulberg",
-    "new zealand",
-    "mahinapua hotel"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_3069.jpg",
+  "caption": "Sophie and Bec",
+  "date_time_original": [
+    "2006-06-16T11:17:26+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T01:01:52+00:00",
-  "original_height": 1860,
-  "original_width": 2340,
-  "original_size": 2246554,
+  "filename": "IMG_3069.jpg",
+  "hidden": false,
+  "image_key": "cGP8Ssf",
   "images": [
     "cGP8Ssf-Ti.jpg",
     "cGP8Ssf-Th.jpg",
@@ -28,7 +19,16 @@
     "cGP8Ssf-X3.jpg",
     "cGP8Ssf-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-16T11:17:26+00:00"
-  ]
+  "keywords": [
+    "sophie",
+    "becky stulberg",
+    "new zealand",
+    "mahinapua hotel"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1860,
+  "original_size": 2246554,
+  "original_width": 2340,
+  "title": ""
 }

@@ -1,22 +1,13 @@
 {
-  "image_key": "xbVJnvC",
-  "title": "",
-  "caption": "Rowena and Louise, pirate and tinkerbell",
-  "keywords": [
-    "rowena",
-    "louise",
-    "new zealand",
-    "mahinapua hotel"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 042.jpg",
+  "caption": "Rowena and Louise, pirate and tinkerbell",
+  "date_time_original": [
+    "2006-06-17T06:37:39+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T01:49:24+00:00",
-  "original_height": 2816,
-  "original_width": 2112,
-  "original_size": 2861119,
+  "filename": "Stuart2 042.jpg",
+  "hidden": false,
+  "image_key": "xbVJnvC",
   "images": [
     "xbVJnvC-Ti.jpg",
     "xbVJnvC-Th.jpg",
@@ -28,7 +19,16 @@
     "xbVJnvC-X3.jpg",
     "xbVJnvC-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-17T06:37:39+00:00"
-  ]
+  "keywords": [
+    "rowena",
+    "louise",
+    "new zealand",
+    "mahinapua hotel"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2816,
+  "original_size": 2861119,
+  "original_width": 2112,
+  "title": ""
 }

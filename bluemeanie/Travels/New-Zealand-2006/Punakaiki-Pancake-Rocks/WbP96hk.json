@@ -1,20 +1,13 @@
 {
-  "image_key": "WbP96hk",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "punakaiki pancake rocks and blowholes"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 020.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-16T19:26:14+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T00:33:34+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2966331,
+  "filename": "Stuart2 020.jpg",
+  "hidden": false,
+  "image_key": "WbP96hk",
   "images": [
     "WbP96hk-Ti.jpg",
     "WbP96hk-Th.jpg",
@@ -26,7 +19,14 @@
     "WbP96hk-X3.jpg",
     "WbP96hk-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-16T19:26:14+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "punakaiki pancake rocks and blowholes"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2112,
+  "original_size": 2966331,
+  "original_width": 2816,
+  "title": ""
 }

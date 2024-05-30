@@ -1,19 +1,13 @@
 {
-  "image_key": "FGFsCHN",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "Nepal"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Nepal_20110406_123149_596.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2011-04-06T19:31:49+00:00"
+  ],
   "date_time_uploaded": "2011-06-19T14:17:48+00:00",
-  "original_height": 2336,
-  "original_width": 3504,
-  "original_size": 6858158,
+  "filename": "Nepal_20110406_123149_596.jpg",
+  "hidden": false,
+  "image_key": "FGFsCHN",
   "images": [
     "FGFsCHN-Ti.jpg",
     "FGFsCHN-Th.jpg",
@@ -25,7 +19,13 @@
     "FGFsCHN-X3.jpg",
     "FGFsCHN-Original.jpg"
   ],
-  "date_time_original": [
-    "2011-04-06T19:31:49+00:00"
-  ]
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2336,
+  "original_size": 6858158,
+  "original_width": 3504,
+  "title": ""
 }

@@ -1,20 +1,13 @@
 {
-  "image_key": "JBpmPVn",
-  "title": "",
-  "caption": "The duck",
-  "keywords": [
-    "new zealand",
-    "nelson lakes national park"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart 057.jpg",
+  "caption": "The duck",
+  "date_time_original": [
+    "2006-06-15T18:03:56+00:00"
+  ],
   "date_time_uploaded": "2006-06-30T01:29:44+00:00",
-  "original_height": 2304,
-  "original_width": 3456,
-  "original_size": 2417586,
+  "filename": "Stuart 057.jpg",
+  "hidden": false,
+  "image_key": "JBpmPVn",
   "images": [
     "JBpmPVn-Ti.jpg",
     "JBpmPVn-Th.jpg",
@@ -26,7 +19,14 @@
     "JBpmPVn-X3.jpg",
     "JBpmPVn-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-15T18:03:56+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "nelson lakes national park"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2304,
+  "original_size": 2417586,
+  "original_width": 3456,
+  "title": ""
 }

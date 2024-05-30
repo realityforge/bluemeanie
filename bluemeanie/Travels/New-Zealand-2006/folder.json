@@ -1,13 +1,4 @@
 {
-  "node_id": "JWHsq",
-  "name": "New Zealand 2006",
-  "description": "",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "New-Zealand-2006",
-  "url_path": "/Travels/New-Zealand-2006",
-  "date_added": "2014-02-23T04:40:37+00:00",
-  "highlight_image_key": "rcGDxrr",
   "child_nodes": [
     "Cafe-Stop-12th-of-June",
     "Kaikoura-12th-of-June",
@@ -28,5 +19,14 @@
     "Puzzle-World-20th-of-June",
     "Queenstown-20th-23rd-of-June",
     "Misc-New-Zealand-Pictures"
-  ]
+  ],
+  "date_added": "2014-02-23T04:40:37+00:00",
+  "description": "",
+  "highlight_image_key": "rcGDxrr",
+  "keywords": [],
+  "name": "New Zealand 2006",
+  "node_id": "JWHsq",
+  "privacy": "Public",
+  "url_name": "New-Zealand-2006",
+  "url_path": "/Travels/New-Zealand-2006"
 }

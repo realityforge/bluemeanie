@@ -1,20 +1,13 @@
 {
-  "image_key": "jLddN69",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "kim bagot"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "2009_11_26_172851.JPG",
+  "caption": "",
+  "date_time_original": [
+    "2009-11-27T01:28:51+00:00"
+  ],
   "date_time_uploaded": "2010-01-28T06:36:03+00:00",
-  "original_height": 4668,
-  "original_width": 3112,
-  "original_size": 8451418,
+  "filename": "2009_11_26_172851.JPG",
+  "hidden": false,
+  "image_key": "jLddN69",
   "images": [
     "jLddN69-Ti.jpg",
     "jLddN69-Th.jpg",
@@ -26,7 +19,14 @@
     "jLddN69-X3.jpg",
     "jLddN69-Original.jpg"
   ],
-  "date_time_original": [
-    "2009-11-27T01:28:51+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "kim bagot"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 4668,
+  "original_size": 8451418,
+  "original_width": 3112,
+  "title": ""
 }

@@ -1,20 +1,13 @@
 {
-  "image_key": "6Z5KLh7",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "new zealand",
-    "mahinapua hotel"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "IMG_3061.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-16T10:44:04+00:00"
+  ],
   "date_time_uploaded": "2006-06-29T00:53:12+00:00",
-  "original_height": 1944,
-  "original_width": 2592,
-  "original_size": 2027259,
+  "filename": "IMG_3061.jpg",
+  "hidden": false,
+  "image_key": "6Z5KLh7",
   "images": [
     "6Z5KLh7-Ti.jpg",
     "6Z5KLh7-Th.jpg",
@@ -26,7 +19,14 @@
     "6Z5KLh7-X3.jpg",
     "6Z5KLh7-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-16T10:44:04+00:00"
-  ]
+  "keywords": [
+    "new zealand",
+    "mahinapua hotel"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 1944,
+  "original_size": 2027259,
+  "original_width": 2592,
+  "title": ""
 }

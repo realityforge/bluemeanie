@@ -1,21 +1,13 @@
 {
-  "image_key": "Xbq79vC",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "stuart holmes",
-    "new zealand",
-    "franz joseph"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Stuart2 069.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2006-06-18T21:01:09+00:00"
+  ],
   "date_time_uploaded": "2006-06-30T07:44:31+00:00",
-  "original_height": 2112,
-  "original_width": 2816,
-  "original_size": 2171472,
+  "filename": "Stuart2 069.jpg",
+  "hidden": false,
+  "image_key": "Xbq79vC",
   "images": [
     "Xbq79vC-Ti.jpg",
     "Xbq79vC-Th.jpg",
@@ -27,7 +19,15 @@
     "Xbq79vC-X3.jpg",
     "Xbq79vC-Original.jpg"
   ],
-  "date_time_original": [
-    "2006-06-18T21:01:09+00:00"
-  ]
+  "keywords": [
+    "stuart holmes",
+    "new zealand",
+    "franz joseph"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 2112,
+  "original_size": 2171472,
+  "original_width": 2816,
+  "title": ""
 }

@@ -1,12 +1,6 @@
 {
-  "node_id": "vgfrf",
-  "name": "World Peace Stupa",
-  "description": "The World Peace Stupa sits o a hill overlooking the lake at Pohkara.",
-  "privacy": "Public",
-  "keywords": [],
-  "url_name": "World-Peace-Stupa",
-  "url_path": "/Travels/Nepal-September-2011/World-Peace-Stupa",
   "date_added": "2011-12-26T06:24:12+00:00",
+  "description": "The World Peace Stupa sits o a hill overlooking the lake at Pohkara.",
   "highlight_image_key": "MHccFMQ",
   "images": [
     "rMRDhP4",
@@ -24,5 +18,11 @@
     "qZQkS86",
     "pV6pHd6",
     "C6RGgQm"
-  ]
+  ],
+  "keywords": [],
+  "name": "World Peace Stupa",
+  "node_id": "vgfrf",
+  "privacy": "Public",
+  "url_name": "World-Peace-Stupa",
+  "url_path": "/Travels/Nepal-September-2011/World-Peace-Stupa"
 }

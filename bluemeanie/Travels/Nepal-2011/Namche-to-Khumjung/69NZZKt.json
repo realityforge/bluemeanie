@@ -1,19 +1,13 @@
 {
-  "image_key": "69NZZKt",
-  "title": "",
-  "caption": "",
-  "keywords": [
-    "Nepal"
-  ],
-  "latitude": "0",
-  "longitude": "0",
   "altitude": 0,
-  "hidden": false,
-  "filename": "Nepal_20110324_111005_137.jpg",
+  "caption": "",
+  "date_time_original": [
+    "2011-03-24T18:10:05+00:00"
+  ],
   "date_time_uploaded": "2011-06-17T22:39:42+00:00",
-  "original_height": 3168,
-  "original_width": 4752,
-  "original_size": 9522818,
+  "filename": "Nepal_20110324_111005_137.jpg",
+  "hidden": false,
+  "image_key": "69NZZKt",
   "images": [
     "69NZZKt-Ti.jpg",
     "69NZZKt-Th.jpg",
@@ -25,7 +19,13 @@
     "69NZZKt-X3.jpg",
     "69NZZKt-Original.jpg"
   ],
-  "date_time_original": [
-    "2011-03-24T18:10:05+00:00"
-  ]
+  "keywords": [
+    "Nepal"
+  ],
+  "latitude": "0",
+  "longitude": "0",
+  "original_height": 3168,
+  "original_size": 9522818,
+  "original_width": 4752,
+  "title": ""
 }

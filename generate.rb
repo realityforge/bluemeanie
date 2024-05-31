@@ -121,6 +121,8 @@ class Folder
   def initialize(node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children)
     @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image, @children =
       node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children
+    @name = nil if @name.chop.empty?
+    @description = nil if @description.chop.empty?
   end
 
   def path_to_root

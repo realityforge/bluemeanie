@@ -54,7 +54,7 @@ class Image
   end
 
   def image_path(size)
-    raise "Unable to locate image of size #{size}" unless size_present?(size)
+    raise "Unable to locate image of size #{size} for image #{image_key} at #{@path}" unless size_present?(size)
     "#{@path[1...]}/#{@images[size]}"
   end
 

@@ -198,6 +198,8 @@ def load_album(path)
     load_image(data['url_path'], image_name, path)
   end
 
+  load_image(data['url_path'], data['highlight_image_key'], path) unless IMAGES[data['highlight_image_key']]
+
   ALBUMS[path] = Album.new(data['node_id'], data['name'], data['description'],
                            data['privacy'], data['keywords'],
                            data['url_name'], data['url_path'], data['date_added'],

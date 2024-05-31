@@ -129,8 +129,13 @@ class Folder
     @description = nil if @description.chop.empty?
   end
 
+  def is_root?
+    self.url_path == '/'
+  end
+
   def path_to_root
-    '../' * (url_path.count('/') - 1)
+    return '' if is_root?
+    ('../' * (url_path[1..].count('/') + 1))
   end
 
   def subfolders

@@ -4,6 +4,7 @@ require 'fileutils'
 
 DIR = File.expand_path(File.dirname(__FILE__))
 SITE_NAME='bluemeanie'
+DEBUG=false
 
 folder_html_erb_filename = File.join(DIR, 'folder.html.erb')
 FOLDER_ERB = ERB.new(IO.read(folder_html_erb_filename))
@@ -159,7 +160,7 @@ def load_folder(path)
   folder_path = File.join(path, 'folder.json')
   return nil unless File.exist?(folder_path)
 
-  puts "Loading Folder : #{path.gsub("#{DIR}/", '')}"
+  puts "Loading Folder : #{path.gsub("#{DIR}/", '')}" if DEBUG
   raise "Duplicate Folder : #{path}" if FOLDERS.key?(path)
   data = JSON.load(IO.read(folder_path))
 
@@ -181,7 +182,7 @@ def load_folder(path)
 end
 
 def load_image(url_path, image_name, path)
-  puts "Loading Image : #{path.gsub("#{DIR}/", '')}/#{image_name}"
+  puts "Loading Image : #{path.gsub("#{DIR}/", '')}/#{image_name}" if DEBUG
   image_data = JSON.load(IO.read(File.join(path, "#{image_name}.json")))
   IMAGES[image_name] = Image.new(image_data['image_key'], url_path, image_data['title'],
                                  image_data['caption'], image_data['keywords'],
@@ -195,7 +196,7 @@ end
 
 def load_album(path)
   album_path = File.join(path, 'album.json')
-  puts "Loading Album  : #{path.gsub("#{DIR}/", '')}"
+  puts "Loading Album  : #{path.gsub("#{DIR}/", '')}" if DEBUG
   raise "Duplicate Album  : #{path}" if FOLDERS.key?(path)
   data = JSON.load(IO.read(album_path))
 
@@ -214,6 +215,8 @@ end
 def generate_folder(folder)
   output_dir = File.join(DIR, SITE_NAME, folder.url_path)
   output_path = File.join(output_dir, 'index.html')
+
+  puts "Generating Folder : #{folder.url_path[1...]}" if DEBUG
 
   output = FOLDER_ERB.result_with_hash(:folder => folder)
 

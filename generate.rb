@@ -65,7 +65,6 @@ class Image
     image_path(:original)
   end
 
-
   def highlight_image_path
     return image_path(:small) if size_present?(:small)
     return image_path(:thumbnail) if size_present?(:thumbnail)

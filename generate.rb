@@ -175,6 +175,19 @@ def load_folder(path)
                              children)
 end
 
+def load_image(url_path, image_name, path)
+  puts "Loading Image : #{path.gsub("#{DIR}/", '')}/#{image_name}"
+  image_data = JSON.load(IO.read(File.join(path, "#{image_name}.json")))
+  IMAGES[image_name] = Image.new(image_data['image_key'], url_path, image_data['title'],
+                                 image_data['caption'], image_data['keywords'],
+                                 image_data['latitude'], image_data['longitude'],
+                                 image_data['altitude'], image_data['hidden'],
+                                 image_data['filename'], image_data['date_time_uploaded'],
+                                 image_data['original_height'], image_data['original_width'],
+                                 image_data['original_size'], image_data['images'],
+                                 image_data['date_time_original'])
+end
+
 def load_album(path)
   album_path = File.join(path, 'album.json')
   puts "Loading Album  : #{path.gsub("#{DIR}/", '')}"
@@ -182,23 +195,13 @@ def load_album(path)
   data = JSON.load(IO.read(album_path))
 
   data['images'].each do |image_name|
-    # puts "Loading Image : #{path.gsub("#{DIR}/", '')}/#{image_name}"
-    image_data = JSON.load(IO.read(File.join(path, "#{image_name}.json")))
-    IMAGES[image_name] = Image.new(image_data['image_key'], data['url_path'], image_data['title'],
-                                   image_data['caption'], image_data['keywords'],
-                                   image_data['latitude'], image_data['longitude'],
-                                   image_data['altitude'], image_data['hidden'],
-                                   image_data['filename'], image_data['date_time_uploaded'],
-                                   image_data['original_height'], image_data['original_width'],
-                                   image_data['original_size'], image_data['images'],
-                                   image_data['date_time_original'])
+    load_image(data['url_path'], image_name, path)
   end
 
-  highlight_image = IMAGES[data['highlight_image_key']]
   ALBUMS[path] = Album.new(data['node_id'], data['name'], data['description'],
                            data['privacy'], data['keywords'],
                            data['url_name'], data['url_path'], data['date_added'],
-                           highlight_image)
+                           IMAGES[data['highlight_image_key']])
 end
 
 root_folder = load_folder(File.join(DIR, SITE_NAME))

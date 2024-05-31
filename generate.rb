@@ -89,6 +89,20 @@ class Album
     @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image =
       node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image
   end
+
+  def title
+    if self.name
+      if self.description
+        return "#{self.name}: #{self.description}"
+      else
+        return self.name
+      end
+    elsif self.description
+      return self.description
+    else
+      ''
+    end
+  end
 end
 
 # Folder Template Data class
@@ -111,6 +125,20 @@ class Folder
 
   def path_to_root
     '../' * (url_path.count('/') - 1)
+  end
+
+  def title
+    if self.name
+      if self.description
+        return "#{self.name}: #{self.description}"
+      else
+        return self.name
+      end
+    elsif self.description
+      return self.description
+    else
+      ''
+    end
   end
 end
 

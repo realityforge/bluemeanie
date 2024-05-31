@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=2"><%
+  if folder.description %>
+  <meta name="description" content="<%= folder.description %>"><% end
+%><% if folder.name %>
+  <title><%= folder.name %></title>
+<% end
+%>  <link href="<%= folder.path_to_root %>style.css" rel="stylesheet">
+</head>
+
+<body>
+  <img src="<%= folder.path_to_root %><%= folder.highlight_image.highlight_image_path %>" title="<%= folder.title %>">
+<% if folder.name %>
+  <h2><%= folder.name %></h2>
+<% end %>
+<% if folder.description %>
+  <p><%= folder.description %></p>
+<% end %>
+
+<% subfolders = folder.subfolders %>
+<% unless subfolders.empty? %>
+<h3>Folders</h3>
+<% subfolders.each do |subfolder| %>
+<div class="responsive">
+  <div class="gallery">
+    <a href="<%= subfolder.url_name %>">
+      <img src="<%= subfolder.url_name %>/<%= subfolder.highlight_image.highlight_local_image_path %>" alt="<%= subfolder.name %>" title="<%= subfolder.title %>"  width="400" height="400">
+    </a>
+    <p title="<%= subfolder.title %>"><%= subfolder.name %></p>
+  </div>
+</div>
+<% end %>
+
+<div class="clearfix"></div>
+<% end %>
+
+<% albums = folder.albums %>
+<% unless albums.empty? %>
+  <h3>Folders</h3>
+  <% albums.each do |album| %>
+    <div class="responsive">
+      <div class="gallery">
+        <a href="<%= album.url_name %>">
+          <img src="<%= album.url_name %>/<%= album.highlight_image.highlight_local_image_path %>" alt="<%= album.name %>" title="<%= album.title %>"  width="400" height="400">
+        </a>
+        <p title="<%= album.title %>"><%= album.name %></p>
+      </div>
+    </div>
+  <% end %>
+
+  <div class="clearfix"></div>
+<% end %>
+
+</body>
+</html>
+
+

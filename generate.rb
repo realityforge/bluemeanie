@@ -5,6 +5,9 @@ require 'fileutils'
 DIR = File.expand_path(File.dirname(__FILE__))
 SITE_NAME='bluemeanie'
 
+folder_html_erb_filename = File.join(DIR, 'folder.html.erb')
+FOLDER_ERB = ERB.new(IO.read(folder_html_erb_filename))
+FOLDER_ERB.filename = folder_html_erb_filename
 
 FOLDERS = {}
 ALBUMS = {}
@@ -208,4 +211,19 @@ def load_album(path)
                            IMAGES[data['highlight_image_key']])
 end
 
+def generate_folder(folder)
+  output_dir = File.join(DIR, SITE_NAME, folder.url_path)
+  output_path = File.join(output_dir, 'index.html')
+
+  output = FOLDER_ERB.result_with_hash(:folder => folder)
+
+  FileUtils.mkdir_p(output_dir)
+  IO.write(output_path, output)
+
+  folder.subfolders.each do |subfolder|
+    generate_folder(subfolder)
+  end
+end
+
 root_folder = load_folder(File.join(DIR, SITE_NAME))
+generate_folder(root_folder)

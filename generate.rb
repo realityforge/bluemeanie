@@ -127,6 +127,14 @@ class Folder
     '../' * (url_path.count('/') - 1)
   end
 
+  def subfolders
+    self.children.select{|c|c.is_a?(Folder)}
+  end
+
+  def albums
+    self.children.select{|c|c.is_a?(Album)}
+  end
+
   def title
     if self.name
       if self.description

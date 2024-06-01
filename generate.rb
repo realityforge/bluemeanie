@@ -41,15 +41,15 @@ class Image
       image_key, path, title, caption, keywords, latitude, longitude, altitude, hidden, filename, date_time_uploaded, original_height, original_width, original_size, date_time_original
     @images = {}
     images.each do |image_name|
-      @images[:tiny] = image_name if image_name.end_with?('-Ti.jpg') || image_name.end_with?('-Ti.gif')
-      @images[:thumbnail] = image_name if image_name.end_with?('-Th.jpg') || image_name.end_with?('-Th.gif')
-      @images[:small] = image_name if image_name.end_with?('-S.jpg') || image_name.end_with?('-S.gif')
-      @images[:medium] = image_name if image_name.end_with?('-M.jpg') || image_name.end_with?('-M.gif')
-      @images[:large] = image_name if image_name.end_with?('-L.jpg') || image_name.end_with?('-L.gif')
-      @images[:extra_large] = image_name if image_name.end_with?('-XL.jpg') || image_name.end_with?('-XL.gif')
-      @images[:extra_large2] = image_name if image_name.end_with?('-X2.jpg') || image_name.end_with?('-X2.gif')
-      @images[:extra_large3] = image_name if image_name.end_with?('-X3.jpg') || image_name.end_with?('-X3.gif')
-      @images[:original] = image_name if image_name.end_with?('-Original.jpg') || image_name.end_with?('-Original.gif')
+      @images[:tiny] = image_name if image_name.end_with?('-Ti.jpg') || image_name.end_with?('-Ti.gif') || image_name.end_with?('-Ti.png')
+      @images[:thumbnail] = image_name if image_name.end_with?('-Th.jpg') || image_name.end_with?('-Th.gif') || image_name.end_with?('-Th.png')
+      @images[:small] = image_name if image_name.end_with?('-S.jpg') || image_name.end_with?('-S.gif') || image_name.end_with?('-S.png')
+      @images[:medium] = image_name if image_name.end_with?('-M.jpg') || image_name.end_with?('-M.gif') || image_name.end_with?('-M.png')
+      @images[:large] = image_name if image_name.end_with?('-L.jpg') || image_name.end_with?('-L.gif') || image_name.end_with?('-L.png')
+      @images[:extra_large] = image_name if image_name.end_with?('-XL.jpg') || image_name.end_with?('-XL.gif') || image_name.end_with?('-XL.png')
+      @images[:extra_large2] = image_name if image_name.end_with?('-X2.jpg') || image_name.end_with?('-X2.gif') || image_name.end_with?('-X2.png')
+      @images[:extra_large3] = image_name if image_name.end_with?('-X3.jpg') || image_name.end_with?('-X3.gif') || image_name.end_with?('-X3.png')
+      @images[:original] = image_name if image_name.end_with?('-Original.jpg') || image_name.end_with?('-Original.gif') || image_name.end_with?('-Original.png')
     end
     @parent = nil
   end

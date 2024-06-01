@@ -10,12 +10,17 @@ folder_html_erb_filename = File.join(DIR, 'folder.html.erb')
 FOLDER_ERB = ERB.new(IO.read(folder_html_erb_filename))
 FOLDER_ERB.filename = folder_html_erb_filename
 
+album_html_erb_filename = File.join(DIR, 'album.html.erb')
+ALBUM_ERB = ERB.new(IO.read(album_html_erb_filename))
+ALBUM_ERB.filename = album_html_erb_filename
+
 FOLDERS = {}
 ALBUMS = {}
 IMAGES = {}
 
 # Image Template Data class
 class Image
+  attr_reader :parent
   attr_reader :image_key
   attr_reader :title
   attr_reader :caption
@@ -46,6 +51,11 @@ class Image
       @images[:extra_large3] = image_name if image_name.end_with?('-X3.jpg') || image_name.end_with?('-X3.gif')
       @images[:original] = image_name if image_name.end_with?('-Original.jpg') || image_name.end_with?('-Original.gif')
     end
+    @parent = nil
+  end
+
+  def register_parent(parent)
+    @parent = parent
   end
 
   def size_present?(size)
@@ -75,10 +85,54 @@ class Image
     return image_path(:tiny) if size_present?(:tiny)
     image_path(:original)
   end
+
+  def highlight_image_html
+    <<HTML
+<li>
+    <a href="#{self.image_key}.html">
+      <img src="#{self.highlight_local_image_path}" alt="#{self.title}">
+      <div class="overlay"><span>#{self.title}</span></div>
+    </a>
+</li>
+HTML
+  end
+end
+
+class Container
+  def generate_breadcrumbs
+    links = []
+    back_path = ""
+
+    node = self
+    while node
+      if node.parent.nil?
+        links << "<a href=\"#{back_path}\"><i class=\"fa fa-home\" aria-hidden=\"true\"></i></a>\n"
+      else
+        links << "<a href=\"#{back_path}\"> #{node.name}</a>\n"
+        back_path = "#{back_path}../"
+      end
+      node = node.parent
+    end
+
+    links.reverse.join('<i class="fa fa-caret-right" aria-hidden="true"></i>' + "\n")
+  end
+
+  def highlight_image_html
+    <<HTML
+<li>
+    <a href="#{self.url_name}">
+      <img src="#{self.url_name}/#{self.highlight_image.highlight_local_image_path}" alt="#{self.name}">
+      <div class="overlay"><span title="#{self.title}">#{self.name}</span></div>
+    </a>
+</li>
+HTML
+  end
 end
 
 # Album Template Data class
-class Album
+class Album < Container
+
+  attr_reader :parent
   attr_reader :node_id
   attr_reader :name
   attr_reader :description
@@ -88,10 +142,16 @@ class Album
   attr_reader :url_path
   attr_reader :date_added
   attr_reader :highlight_image
+  attr_reader :images
 
-  def initialize(node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image)
-    @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image =
-      node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image
+  def initialize(node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, images)
+    @node_id, @name, @description, @privacy, @keywords, @url_name, @url_path, @date_added, @highlight_image, @images =
+      node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, images
+    @parent = nil
+  end
+
+  def register_parent(parent)
+    @parent = parent
   end
 
   def title
@@ -107,10 +167,15 @@ class Album
       ''
     end
   end
+
+  def path_to_root
+    ('../' * (url_path[1..].count('/') + 1))
+  end
 end
 
 # Folder Template Data class
-class Folder
+class Folder < Container
+  attr_reader :parent
   attr_reader :node_id
   attr_reader :name
   attr_reader :description
@@ -127,6 +192,11 @@ class Folder
       node_id, name, description, privacy, keywords, url_name, url_path, date_added, highlight_image, children
     @name = nil if @name.chop.empty?
     @description = nil if @description.chop.empty?
+    @parent = nil
+  end
+
+  def register_parent(parent)
+    @parent = parent
   end
 
   def is_root?
@@ -179,11 +249,17 @@ def load_folder(path)
     end
   end
 
-  FOLDERS[path] = Folder.new(data['node_id'], data['name'], data['description'],
-                             data['privacy'], data['keywords'],
-                             data['url_name'], data['url_path'], data['date_added'],
-                             IMAGES[data['highlight_image_key']],
-                             children)
+  folder = Folder.new(data['node_id'], data['name'], data['description'],
+                          data['privacy'], data['keywords'],
+                          data['url_name'], data['url_path'], data['date_added'],
+                          IMAGES[data['highlight_image_key']],
+                          children)
+
+  children.each do |child|
+    child.register_parent(folder)
+  end
+
+  FOLDERS[path] = folder
 end
 
 def load_image(url_path, image_name, path)
@@ -205,16 +281,22 @@ def load_album(path)
   raise "Duplicate Album  : #{path}" if FOLDERS.key?(path)
   data = JSON.load(IO.read(album_path))
 
+  images = []
   data['images'].each do |image_name|
-    load_image(data['url_path'], image_name, path)
+    images << load_image(data['url_path'], image_name, path)
   end
 
   load_image(data['url_path'], data['highlight_image_key'], path) unless IMAGES[data['highlight_image_key']]
 
-  ALBUMS[path] = Album.new(data['node_id'], data['name'], data['description'],
-                           data['privacy'], data['keywords'],
-                           data['url_name'], data['url_path'], data['date_added'],
-                           IMAGES[data['highlight_image_key']])
+  album = Album.new(data['node_id'], data['name'], data['description'],
+                        data['privacy'], data['keywords'],
+                        data['url_name'], data['url_path'], data['date_added'],
+                        IMAGES[data['highlight_image_key']],
+                        images)
+  images.each do |image|
+    image.register_parent(album)
+  end
+  ALBUMS[path] = album
 end
 
 def generate_folder(folder)
@@ -230,6 +312,26 @@ def generate_folder(folder)
 
   folder.subfolders.each do |subfolder|
     generate_folder(subfolder)
+  end
+
+  folder.albums.each do |album|
+    generate_album(album)
+  end
+end
+
+def generate_album(album)
+  output_dir = File.join(DIR, SITE_NAME, album.url_path)
+  output_path = File.join(output_dir, 'index.html')
+
+  puts "Generating Album  : #{album.url_path[1...]}" if DEBUG
+
+  output = ALBUM_ERB.result_with_hash(:album => album)
+
+  FileUtils.mkdir_p(output_dir)
+  IO.write(output_path, output)
+
+  album.images.each do |images|
+    #generate_image(images)
   end
 end
 

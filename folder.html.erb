@@ -22,13 +22,7 @@
 
 <body>
 
-<div>
-<% path_elements = folder.url_path.split('/') %>
-<% path_elements.each_with_index do |path_element, index| %>
-<% back_path =  '../' * (path_elements.size - index - 1) %>
-    <a href="<%= back_path %>"><% if 0 == index %><i class="fa fa-home" aria-hidden="true"></i><% else %><i class="fa fa-caret-right" aria-hidden="true"></i> <%= path_element %><% end %></a>
-<% end %>
-</div>
+<div><%= folder.generate_breadcrumbs %></div>
 
 <% if folder.is_root? %>
 <img src="<%= folder.path_to_root %><%= folder.highlight_image.highlight_image_path %>" title="<%= folder.title %>">
@@ -39,36 +33,22 @@
 <% if folder.description %>
   <p><%= folder.description %></p>
 <% end %>
-
-<% subfolders = folder.subfolders %>
-<% unless subfolders.empty? %>
+<% unless folder.subfolders.empty? %>
   <h3>Folders</h3>
   <div class="container">
     <ul class="image-gallery">
-      <% subfolders.each do |subfolder| %>
-        <li>
-          <a href="<%= subfolder.url_name %>">
-            <img src="<%= subfolder.url_name %>/<%= subfolder.highlight_image.highlight_local_image_path %>" alt="<%= subfolder.name %>" title="<%= subfolder.title %>">
-            <div class="overlay"><span title="<%= subfolder.title %>"><%= subfolder.name %></span></div>
-          </a>
-        </li>
+      <% folder.subfolders.each do |subfolder| %>
+        <%= subfolder.highlight_image_html %>
       <% end %>
     </ul>
   </div>
 <% end %>
-
-<% albums = folder.albums %>
-<% unless albums.empty? %>
+<% unless folder.albums.empty? %>
   <h3>Albums</h3>
   <div class="container">
     <ul class="image-gallery">
-      <% albums.each do |album| %>
-        <li>
-          <a href="<%= album.url_name %>">
-            <img src="<%= album.url_name %>/<%= album.highlight_image.highlight_local_image_path %>" alt="<%= album.name %>" title="<%= album.title %>">
-            <div class="overlay"><span title="<%= album.title %>"><%= album.name %></span></div>
-          </a>
-        </li>
+      <% folder.albums.each do |album| %>
+        <%= album.highlight_image_html %>
       <% end %>
     </ul>
   </div>

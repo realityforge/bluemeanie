@@ -87,11 +87,17 @@ class Image
   end
 
   def highlight_image_html
-    <<HTML
+    content = <<HTML
 <li>
     <a href="#{self.image_key}.html">
-      <img src="#{self.highlight_local_image_path}" alt="#{self.title}">
-      <div class="overlay"><span>#{self.title}</span></div>
+      <img src="#{self.highlight_local_image_path}">
+HTML
+    unless self.caption.empty?
+      content += <<HTML
+      <div class="overlay"><span>#{self.caption}</span></div>
+HTML
+    end
+    content += <<HTML
     </a>
 </li>
 HTML

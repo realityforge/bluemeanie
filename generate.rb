@@ -14,6 +14,10 @@ album_html_erb_filename = File.join(DIR, 'album.html.erb')
 ALBUM_ERB = ERB.new(IO.read(album_html_erb_filename))
 ALBUM_ERB.filename = album_html_erb_filename
 
+image_html_erb_filename = File.join(DIR, 'image.html.erb')
+IMAGE_ERB = ERB.new(IO.read(image_html_erb_filename))
+IMAGE_ERB.filename = image_html_erb_filename
+
 FOLDERS = {}
 ALBUMS = {}
 IMAGES = {}
@@ -86,6 +90,17 @@ class Image
     image_path(:original)
   end
 
+  def main_local_image_path
+    return local_image_path(:extra_large2) if size_present?(:extra_large2)
+    return local_image_path(:extra_large) if size_present?(:extra_large)
+    return local_image_path(:large) if size_present?(:large)
+    return local_image_path(:medium) if size_present?(:medium)
+    return local_image_path(:small) if size_present?(:small)
+    return local_image_path(:thumbnail) if size_present?(:thumbnail)
+    return local_image_path(:tiny) if size_present?(:tiny)
+    image_path(:original)
+  end
+
   def highlight_image_html
     content = <<HTML
 <li>
@@ -101,6 +116,42 @@ HTML
     </a>
 </li>
 HTML
+  end
+
+  def image_links
+    content = "<ul>\n"
+    images_types = {
+      :tiny => 'Ti',
+      :thumbnail => 'Th',
+      :small => 'S',
+      :medium => 'M',
+      :large => 'L',
+      :extra_large => 'XL',
+      :extra_large2 => 'XL2',
+      :extra_large3 => 'XL3',
+      :original => 'Original',
+    }
+
+    images_types.each_pair do |key, text|
+      if size_present?(key)
+        path = local_image_path(key)
+        content += "<li><a href=\"#{path}\">#{text}</a></li>\n"
+      end
+    end
+
+    content += "</ul>\n"
+  end
+
+  def label
+    self.caption.empty? ? self.filename : self.caption
+  end
+
+  def path_to_root
+    self.parent.path_to_root
+  end
+
+  def generate_breadcrumbs
+    self.parent.generate_breadcrumbs.chop + "<a href=\"#{self.image_key}.html\"> #{self.label}</a>\n"
   end
 end
 
@@ -345,8 +396,20 @@ def generate_album(album)
   IO.write(output_path, output)
 
   album.images.each do |images|
-    #generate_image(images)
+    generate_image(images)
   end
+end
+
+def generate_image(image)
+  output_dir = File.join(DIR, SITE_NAME, image.parent.url_path)
+  output_path = File.join(output_dir, "#{image.image_key}.html")
+
+  puts "Generating Image  : #{album.url_path[1...]}/#{image.image_key}" if DEBUG
+
+  output = IMAGE_ERB.result_with_hash(:image => image)
+
+  FileUtils.mkdir_p(output_dir)
+  IO.write(output_path, output)
 end
 
 root_folder = load_folder(File.join(DIR, SITE_NAME))

@@ -33,21 +33,21 @@
 <% if folder.description %>
   <p><%= folder.description %></p>
 <% end %>
-<% unless folder.subfolders.empty? %>
+<% unless folder.public_subfolders.empty? %>
   <h3>Folders</h3>
   <div class="container">
     <ul class="image-gallery">
-      <% folder.subfolders.each do |subfolder| %>
+      <% folder.public_subfolders.each do |subfolder| %>
         <%= subfolder.highlight_image_html %>
       <% end %>
     </ul>
   </div>
 <% end %>
-<% unless folder.albums.empty? %>
+<% unless folder.public_albums.empty? %>
   <h3>Albums</h3>
   <div class="container">
     <ul class="image-gallery">
-      <% folder.albums.each do |album| %>
+      <% folder.public_albums.each do |album| %>
         <%= album.highlight_image_html %>
       <% end %>
     </ul>

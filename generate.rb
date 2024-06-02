@@ -212,8 +212,17 @@ class Folder < Container
     self.children.select{|c|c.is_a?(Folder)}
   end
 
+  def public_subfolders
+    # "privacy": "Public",
+    self.subfolders.select{|c| 'Public' == c.privacy }
+  end
+
   def albums
     self.children.select{|c|c.is_a?(Album)}
+  end
+
+  def public_albums
+    self.albums.select{|c| 'Public' == c.privacy }
   end
 
   def title

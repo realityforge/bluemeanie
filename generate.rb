@@ -3,8 +3,8 @@ require 'json'
 require 'fileutils'
 
 DIR = File.expand_path(File.dirname(__FILE__))
-SITE_NAME='bluemeanie'
-DEBUG=false
+SITE_NAME = 'bluemeanie'
+DEBUG = false
 
 folder_html_erb_filename = File.join(DIR, 'folder.html.erb')
 FOLDER_ERB = ERB.new(IO.read(folder_html_erb_filename))

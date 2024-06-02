@@ -209,20 +209,19 @@ class Folder < Container
   end
 
   def subfolders
-    self.children.select{|c|c.is_a?(Folder)}
+    self.children.select { |c| c.is_a?(Folder) }
   end
 
   def public_subfolders
-    # "privacy": "Public",
-    self.subfolders.select{|c| 'Public' == c.privacy }
+    self.subfolders.select { |c| 'Public' == c.privacy }
   end
 
   def albums
-    self.children.select{|c|c.is_a?(Album)}
+    self.children.select { |c| c.is_a?(Album) }
   end
 
   def public_albums
-    self.albums.select{|c| 'Public' == c.privacy }
+    self.albums.select { |c| 'Public' == c.privacy }
   end
 
   def title
@@ -259,10 +258,10 @@ def load_folder(path)
   end
 
   folder = Folder.new(data['node_id'], data['name'], data['description'],
-                          data['privacy'], data['keywords'],
-                          data['url_name'], data['url_path'], data['date_added'],
-                          IMAGES[data['highlight_image_key']],
-                          children)
+                      data['privacy'], data['keywords'],
+                      data['url_name'], data['url_path'], data['date_added'],
+                      IMAGES[data['highlight_image_key']],
+                      children)
 
   children.each do |child|
     child.register_parent(folder)
@@ -298,10 +297,10 @@ def load_album(path)
   load_image(data['url_path'], data['highlight_image_key'], path) unless IMAGES[data['highlight_image_key']]
 
   album = Album.new(data['node_id'], data['name'], data['description'],
-                        data['privacy'], data['keywords'],
-                        data['url_name'], data['url_path'], data['date_added'],
-                        IMAGES[data['highlight_image_key']],
-                        images)
+                    data['privacy'], data['keywords'],
+                    data['url_name'], data['url_path'], data['date_added'],
+                    IMAGES[data['highlight_image_key']],
+                    images)
   images.each do |image|
     image.register_parent(album)
   end

@@ -1,6 +1,7 @@
 require 'erb'
 require 'json'
 require 'fileutils'
+require 'date'
 
 DIR = File.expand_path(File.dirname(__FILE__))
 SITE_NAME = 'bluemeanie'

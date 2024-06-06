@@ -31,9 +31,10 @@
   <p><%= album.description %></p>
 <% end %>
 <% unless album.images.empty? %>
+<% unless album.images.select{|image| !image.hidden}.empty? %>
   <div class="container">
     <ul class="image-gallery">
-      <% album.images.each do |image| %>
+      <% album.images.select{|image| !image.hidden}.each do |image| %>
         <%= image.highlight_image_html %>
       <% end %>
     </ul>

@@ -395,7 +395,7 @@ def generate_album(album)
   FileUtils.mkdir_p(output_dir)
   IO.write(output_path, output)
 
-  album.images.each do |images|
+  album.images.select{|image| !image.hidden}.each do |images|
     generate_image(images)
   end
 end

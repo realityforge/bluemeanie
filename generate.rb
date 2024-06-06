@@ -151,21 +151,22 @@ HTML
   end
 
   def generate_breadcrumbs
-    self.parent.generate_breadcrumbs.chop + "<a href=\"#{self.image_key}.html\"> #{self.label}</a>\n"
+    self.parent.generate_breadcrumbs.chop + "\n<i class=\"fa fa-caret-right\" aria-hidden=\"true\"></i>\n<a href=\"#{self.image_key}.html\">#{self.label}</a>\n"
   end
 end
 
 class Container
-  def generate_breadcrumbs
+  def generate_breadcrumbs(local_page_path = 'index.html')
     links = []
-    back_path = ""
+    back_path = ''
 
     node = self
     while node
       if node.parent.nil?
         links << "<a href=\"#{back_path}\"><i class=\"fa fa-home\" aria-hidden=\"true\"></i></a>\n"
       else
-        links << "<a href=\"#{back_path}\"> #{node.name}</a>\n"
+        path = back_path.empty? ? local_page_path : back_path
+        links << "<a href=\"#{path}\">#{node.name}</a>\n"
         back_path = "#{back_path}../"
       end
       node = node.parent

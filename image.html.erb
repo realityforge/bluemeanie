@@ -18,6 +18,17 @@
 
 <%= image.image_links %>
 
+<% unless image.keywords.empty? %>
+<div class="keywords">
+  <h4>Keywords</h4>
+  <ul>
+<% image.keywords.each do |keyword| %>
+    <li><%= keyword %></li>
+<% end %>
+  </ul>
+</div>
+<% end %>
+
 </body>
 </html>
 

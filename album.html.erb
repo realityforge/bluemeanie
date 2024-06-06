@@ -30,7 +30,17 @@
 <% if album.description %>
   <p><%= album.description %></p>
 <% end %>
-<% unless album.images.empty? %>
+<% unless album.keywords.empty? %>
+  <div class="keywords">
+    <h4>Keywords</h4>
+    <ul>
+      <% album.keywords.each do |keyword| %>
+        <li><%= keyword %></li>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+
 <% unless album.images.select{|image| !image.hidden}.empty? %>
   <div class="container">
     <ul class="image-gallery">

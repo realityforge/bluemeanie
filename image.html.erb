@@ -13,8 +13,11 @@
 </head>
 <body>
 
-<div><%= image.generate_breadcrumbs %></div>
+<div class="breadcrumbs"><%= image.generate_breadcrumbs %></div>
+
+<div class="image">
 <img src="<%= image.main_local_image_path %>">
+</div>
 
 <% unless image.caption.empty? %>
   <div class="image-caption">

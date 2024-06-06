@@ -16,6 +16,18 @@
 <div><%= image.generate_breadcrumbs %></div>
 <img src="<%= image.main_local_image_path %>">
 
+<% unless image.caption.empty? %>
+  <div class="image-caption">
+<h3><%= image.caption %></h3>
+  </div>
+<% end %>
+
+<% if image.date_time_original %>
+<div class="capture-date">
+  <p>Date Captured: <%= DateTime.xmlschema(image.date_time_original[0]) %></p>
+</div>
+<% end  %>
+
 <%= image.image_links %>
 
 <% unless image.keywords.empty? %>

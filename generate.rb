@@ -11,7 +11,7 @@ SITE_NAME = 'bluemeanie'
 # URL_PREFIX = ''
 
 # Uncomment for remote deploys
-OUTPUT_BASE = File.join(DIR, '_site')
+OUTPUT_BASE = File.join(DIR, 'docs')
 URL_PREFIX = 'https://raw.githubusercontent.com/realityforge/bluemeanie/main/bluemeanie/'
 
 DEBUG = false

@@ -5,6 +5,15 @@ require 'date'
 
 DIR = File.expand_path(File.dirname(__FILE__))
 SITE_NAME = 'bluemeanie'
+
+# Uncomment the next two for local deploys
+# OUTPUT_BASE = File.join(DIR, SITE_NAME)
+# URL_PREFIX = ''
+
+# Uncomment for remote deploys
+OUTPUT_BASE = File.join(DIR, '_site')
+URL_PREFIX = 'https://raw.githubusercontent.com/realityforge/bluemeanie/main/bluemeanie/'
+
 DEBUG = false
 
 folder_html_erb_filename = File.join(DIR, 'folder.html.erb')
@@ -74,14 +83,22 @@ class Image
 
   def image_path(size)
     raise "Unable to locate image of size #{size} for image #{image_key} at #{@path}" unless size_present?(size)
-    "#{@path[1...]}/#{@images[size]}"
+    "#{URL_PREFIX}#{@path[1...]}/#{@images[size]}"
+  end
+
+  def resolved_local_image_path(size)
+    '' == URL_PREFIX ? local_image_path(size) : image_path(size)
   end
 
   def highlight_local_image_path
     return local_image_path(:small) if size_present?(:small)
     return local_image_path(:thumbnail) if size_present?(:thumbnail)
     return local_image_path(:tiny) if size_present?(:tiny)
-    image_path(:original)
+    local_image_path(:original)
+  end
+
+  def resolved_highlight_local_image_path
+    '' == URL_PREFIX ? highlight_local_image_path : highlight_image_path
   end
 
   def highlight_image_path
@@ -92,21 +109,21 @@ class Image
   end
 
   def main_local_image_path
-    return local_image_path(:extra_large2) if size_present?(:extra_large2)
-    return local_image_path(:extra_large) if size_present?(:extra_large)
-    return local_image_path(:large) if size_present?(:large)
-    return local_image_path(:medium) if size_present?(:medium)
-    return local_image_path(:small) if size_present?(:small)
-    return local_image_path(:thumbnail) if size_present?(:thumbnail)
-    return local_image_path(:tiny) if size_present?(:tiny)
-    image_path(:original)
+    return resolved_local_image_path(:extra_large2) if size_present?(:extra_large2)
+    return resolved_local_image_path(:extra_large) if size_present?(:extra_large)
+    return resolved_local_image_path(:large) if size_present?(:large)
+    return resolved_local_image_path(:medium) if size_present?(:medium)
+    return resolved_local_image_path(:small) if size_present?(:small)
+    return resolved_local_image_path(:thumbnail) if size_present?(:thumbnail)
+    return resolved_local_image_path(:tiny) if size_present?(:tiny)
+    resolved_local_image_path(:original)
   end
 
   def highlight_image_html
     content = <<HTML
 <li>
     <a href="#{self.image_key}.html">
-      <img src="#{self.highlight_local_image_path}">
+      <img src="#{self.resolved_highlight_local_image_path}">
 HTML
     unless self.caption.empty?
       content += <<HTML
@@ -135,7 +152,7 @@ HTML
 
     images_types.each_pair do |key, text|
       if size_present?(key)
-        path = local_image_path(key)
+        path = resolved_local_image_path(key)
         content += "<li><a href=\"#{path}\">#{text}</a></li>\n"
       end
     end
@@ -180,7 +197,7 @@ class Container
     <<HTML
 <li>
     <a href="#{self.url_name}">
-      <img src="#{self.url_name}/#{self.highlight_image.highlight_local_image_path}" alt="#{self.name}">
+      <img src="#{self.highlight_image.highlight_image_path}" alt="#{self.name}">
       <div class="overlay"><span title="#{self.title}">#{self.name}</span></div>
     </a>
 </li>
@@ -367,7 +384,7 @@ def load_album(path)
 end
 
 def generate_folder(folder)
-  output_dir = File.join(DIR, SITE_NAME, folder.url_path)
+  output_dir = File.join(OUTPUT_BASE, folder.url_path)
   output_path = File.join(output_dir, 'index.html')
 
   puts "Generating Folder : #{folder.url_path[1...]}" if DEBUG
@@ -387,7 +404,7 @@ def generate_folder(folder)
 end
 
 def generate_album(album)
-  output_dir = File.join(DIR, SITE_NAME, album.url_path)
+  output_dir = File.join(OUTPUT_BASE, album.url_path)
   output_path = File.join(output_dir, 'index.html')
 
   puts "Generating Album  : #{album.url_path[1...]}" if DEBUG
@@ -403,7 +420,7 @@ def generate_album(album)
 end
 
 def generate_image(image)
-  output_dir = File.join(DIR, SITE_NAME, image.parent.url_path)
+  output_dir = File.join(OUTPUT_BASE, image.parent.url_path)
   output_path = File.join(output_dir, "#{image.image_key}.html")
 
   puts "Generating Image  : #{album.url_path[1...]}/#{image.image_key}" if DEBUG
